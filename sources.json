@@ -1,0 +1,114 @@
+{
+  "datasets": [
+    {
+      "id": "flir_adas",
+      "name": "FLIR ADAS Thermal Dataset",
+      "modality": "thermal",
+      "access": "form-gated (registration at flir.com/oem/adas/adas-dataset-form)",
+      "license": "FLIR EULA (non-commercial research)",
+      "artifact_count_planned": 20,
+      "url": "https://www.flir.com/oem/adas/adas-dataset-form/",
+      "notes": "Annotated thermal frames with vehicle class labels. Registration required."
+    },
+    {
+      "id": "nasa_firms",
+      "name": "NASA FIRMS (Fire Information for Resource Management System)",
+      "modality": "thermal",
+      "access": "open (API key free at https://firms.modaps.eosdis.nasa.gov/api/area/)",
+      "license": "public domain (US government)",
+      "artifact_count_planned": 10,
+      "url": "https://firms.modaps.eosdis.nasa.gov/",
+      "notes": "VIIRS/MODIS thermal anomaly data. OOD thermal — counters circular evaluation critique."
+    },
+    {
+      "id": "esc50",
+      "name": "ESC-50: Dataset for Environmental Sound Classification",
+      "modality": "audio",
+      "access": "git clone (https://github.com/karoldvl/ESC-50)",
+      "license": "CC BY-NC 3.0",
+      "artifact_count_planned": 10,
+      "url": "https://github.com/karoldvl/ESC-50",
+      "notes": "50 classes, 5-second clips. Classes of interest: gunshot, helicopter, airplane, engine, siren, dog bark, car horn, hand clap."
+    },
+    {
+      "id": "drone_audio",
+      "name": "DroneAudioDataset",
+      "modality": "audio",
+      "access": "git clone (https://github.com/saraalgo/DroneAudioDataset)",
+      "license": "MIT",
+      "artifact_count_planned": 10,
+      "url": "https://github.com/saraalgo/DroneAudioDataset",
+      "notes": "UAV rotor audio recordings. 4 classes of drone signatures. C-UAS relevance."
+    },
+    {
+      "id": "mad",
+      "name": "MAD — Military Audio Dataset",
+      "modality": "audio",
+      "access": "Figshare (https://doi.org/10.6084/m9.figshare.25411495)",
+      "license": "CC BY 4.0",
+      "artifact_count_planned": 10,
+      "url": "https://doi.org/10.6084/m9.figshare.25411495",
+      "notes": "Nature Scientific Data 2024. 7 military audio classes. AF Phase I relevance."
+    },
+    {
+      "id": "nyu_depth_v2",
+      "name": "NYU Depth V2",
+      "modality": "depth",
+      "access": "HuggingFace datasets (https://huggingface.co/datasets/sayakpaul/nyu_depth_v2)",
+      "license": "MIT (dataset), original images under various",
+      "artifact_count_planned": 10,
+      "url": "https://cs.nyu.edu/~silberman/datasets/nyu_depth_v2.html",
+      "notes": "Indoor depth maps. 1449 labeled images. Obstacle/spatial reasoning."
+    },
+    {
+      "id": "kitti",
+      "name": "KITTI Vision Benchmark Suite (LiDAR)",
+      "modality": "depth",
+      "access": "http://www.cvlibs.net/datasets/kitti/raw_data.php",
+      "license": "Creative Commons BY-NC-SA 3.0",
+      "artifact_count_planned": 10,
+      "url": "http://www.cvlibs.net/datasets/kitti/",
+      "notes": "Outdoor LiDAR depth. OOD from NYU-D — counters domain overfitting. AF terrain mapping."
+    }
+  ],
+  "text_sources": [
+    {
+      "id": "sensor_handbook",
+      "file": "sensor_handbook.md",
+      "description": "Acoustic/thermal detection ranges for 6+ vehicle classes with distractor entries",
+      "bridge_types": ["vehicle_class", "platform_type"]
+    },
+    {
+      "id": "ir_cooling_reference",
+      "file": "ir_cooling_reference.md",
+      "description": "IR persistence times for 5+ platform types after engine shutdown",
+      "bridge_types": ["platform_type", "vehicle_class"]
+    },
+    {
+      "id": "platform_registry",
+      "file": "platform_registry.md",
+      "description": "Rotor counts, dimensions, MTOW for 8+ drone platforms",
+      "bridge_types": ["drone_model", "rotor_count"]
+    },
+    {
+      "id": "urban_threat_playbook",
+      "file": "urban_threat_playbook.md",
+      "description": "Standoff distances and response protocols for 6+ event types",
+      "bridge_types": ["event_type", "threat_level"]
+    },
+    {
+      "id": "spectral_guide",
+      "file": "spectral_guide.md",
+      "description": "Frequency bands and acoustic signatures for 8+ source types",
+      "bridge_types": ["acoustic_source", "frequency_band"]
+    },
+    {
+      "id": "perimeter_spec",
+      "file": "perimeter_spec.md",
+      "description": "Intrusion rules, detection thresholds for 5+ depth/terrain conditions",
+      "bridge_types": ["obstacle_type", "depth_threshold"]
+    }
+  ],
+  "qa_count_target": 100,
+  "difficulty_levels": ["2-hop", "3-hop", "mixed-chain"]
+}
