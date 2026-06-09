@@ -37,7 +37,7 @@ SGXEM/
 ├── LICENSE                    # CC BY-NC 4.0
 ├── sources.json               # Dataset pointers + metadata
 ├── qa_pairs.jsonl              # Verified QA pairs (1 per line)
-├── artifacts/                 # Non-text artifacts (thermal, audio, depth)
+├── artifacts/                 # Local non-text artifacts; media is git-ignored
 │   ├── thermal/
 │   ├── audio/
 │   └── depth/
@@ -59,7 +59,7 @@ SGXEM/
 ## Quick Start
 
 ```bash
-# Download source datasets (ESC-50, DroneAudioDataset, NYU Depth V2)
+# Download local source datasets (ESC-50, DroneAudioDataset, NYU Depth V2)
 python download_sources.py
 
 # Validate all QA pairs
@@ -70,6 +70,42 @@ import json
 with open("qa_pairs.jsonl") as f:
     qa = [json.loads(line) for line in f]
 ```
+
+## Dataset Downloads and Git Tracking
+
+SGXEM does not track downloaded third-party datasets or copied media artifacts.
+The local `artifacts/` tree is for curation work on your machine. Git tracks
+directory placeholders and metadata, but ignores:
+
+- `artifacts/*_source/`
+- copied audio/image/depth files under `artifacts/audio/`, `artifacts/depth/`,
+  and `artifacts/thermal/`
+- local curation logs and `.env`
+
+To reproduce local data after cloning:
+
+```bash
+cd SGXEM
+python download_sources.py
+python select_artifacts.py
+```
+
+Dataset access policy:
+
+| Dataset | SGXEM behavior | User input |
+|---|---|---|
+| ESC-50 | Auto-clone for local use; prefer ESC-10 for redistributable subsets | none |
+| DroneAudioDataset | Auto-clone for local experiments only; do not redistribute until upstream adds an explicit license | none |
+| NYU Depth V2 | Auto-download with HuggingFace datasets | `HF_TOKEN` optional |
+| NASA FIRMS | Open API; downloader support requires a MAP_KEY | `NASA_FIRMS_MAP_KEY` |
+| MAD | Redistributable CC BY 4.0; download from official Figshare/source or mirror | optional `KAGGLE_USERNAME`/`KAGGLE_KEY` if using Kaggle |
+| FLIR ADAS | Manual-only; SGXEM records your local path and must not redistribute data | `FLIR_ADAS_DIR` |
+| KITTI | Manual-only academic/non-commercial data; SGXEM records your local path and must not redistribute data | `KITTI_RAW_DIR` |
+
+DroneAudio note: the public repository has no explicit LICENSE file. Users may
+clone it for local experiments, but SGXEM should not publish its `.wav` files,
+selected subsets, transformed media, or embeddings until the upstream project
+clarifies redistribution rights.
 
 ## QA Pair Schema
 

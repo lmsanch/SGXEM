@@ -1,0 +1,19 @@
+__pycache__/
+*.pyc
+
+# Local downloaded source datasets. These can be large and may carry their own
+# redistribution restrictions.
+artifacts/*_source/
+
+# Local selected media artifacts. Keep directory placeholders, but do not track
+# copied audio/image/depth payloads from third-party datasets.
+artifacts/audio/*
+!artifacts/audio/.gitkeep
+artifacts/depth/*
+!artifacts/depth/.gitkeep
+artifacts/thermal/*
+!artifacts/thermal/.gitkeep
+
+# Local curation/runtime outputs.
+curation_log.jsonl
+.env
