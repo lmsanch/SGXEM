@@ -102,14 +102,40 @@ def main():
     print("\n6. NASA FIRMS (thermal, open API; redistributable)")
     print("  API access: https://firms.modaps.eosdis.nasa.gov/api/area/")
     if os.environ.get("NASA_FIRMS_MAP_KEY"):
-        print("  NASA_FIRMS_MAP_KEY detected. FIRMS downloader can be added/run here.")
+        print("  NASA_FIRMS_MAP_KEY detected. Run: python fetch_nasa_firms.py")
     else:
         print("  Set NASA_FIRMS_MAP_KEY to enable FIRMS API downloads.")
+        print("  Then run: python fetch_nasa_firms.py")
 
     print("\n7. MAD - Military Audio Dataset (audio, CC BY 4.0; redistributable)")
     print("  Download from https://doi.org/10.6084/m9.figshare.25411495")
     print("  If using a Kaggle mirror, set KAGGLE_USERNAME and KAGGLE_KEY.")
     print("  Place or download files into artifacts/mad_source/ before selection.")
+
+
+    print("\n8. ShipsEar -- Underwater Vessel Noise Database (academic, contact authors)")
+    print("  Santos-Dominguez et al. 2016. 90 recordings, 11 vessel types.")
+    print("  MANUAL: https://atlantis.uc3m.es/SPAC/ShipsEar_db.html")
+    print("  Contact: e.santos@usc.es -- Universidad de Santiago de Compostela")
+    print("  After downloading, set SHIPSEAR_DIR=/path/to/shipsear and rerun.")
+    local_path_from_env("ShipsEar", "SHIPSEAR_DIR", "shipsear_source")
+
+    print("\n9. SanctSound -- NOAA/Navy Passive Acoustic Daily Presence Products (public domain)")
+    print("  Download annotated detection CSVs from NOAA NCEI:")
+    print("  https://www.ncei.noaa.gov/products/passive-acoustic-data")
+    print("  Filter: SanctSound sites, LFDCS detector, species = blue/fin/humpback/right whale.")
+    print("  No registration required. Place CSVs into artifacts/sanctsound_source/.")
+
+    print("\n10. DeepShip -- 47h Underwater Ship Noise Database (academic, contact authors)")
+    print("  Irfan et al. 2021. 265 ships, 4 vessel classes (cargo/passengership/tanker/tug).")
+    print("  Paper: https://doi.org/10.1016/j.eswa.2021.114820")
+    print("  Check Zenodo for hosted data or contact authors directly.")
+    local_path_from_env("DeepShip", "DEEPSHIP_DIR", "deepship_source")
+
+    print("\n11. DCLDE 2024 -- Sonobuoy Array Dataset (request access from DRDC/NOAA)")
+    print("  32-sonobuoy deployment, Gulf of St. Lawrence; NARW + visual + glider data.")
+    print("  REQUEST: email dclde-data@drdc-rddc.gc.ca with institutional affiliation.")
+    print("  Co-produced by DRDC/DFO/NOAA/Dalhousie University.")
 
     print("\n=== Done. Local downloads live under artifacts/ and remain untracked. ===")
     if FAILURES:

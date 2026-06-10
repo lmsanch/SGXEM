@@ -4,6 +4,7 @@ __pycache__/
 # Local downloaded source datasets. These can be large and may carry their own
 # redistribution restrictions.
 artifacts/*_source/
+artifacts/flir_adas/
 
 # Local selected media artifacts. Keep directory placeholders, but do not track
 # copied audio/image/depth payloads from third-party datasets.
@@ -17,3 +18,9 @@ artifacts/thermal/*
 # Local curation/runtime outputs.
 curation_log.jsonl
 .env
+
+# New underwater acoustic source directories
+artifacts/shipsear_source/
+artifacts/sanctsound_source/
+artifacts/deepship_source/
+artifacts/dclde_source/

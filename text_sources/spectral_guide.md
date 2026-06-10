@@ -52,3 +52,59 @@ Impulsive?
 5. **Human voice** and **dog bark** have the lowest confidence and shortest range — never use as primary classification.
 6. **Siren** is the only source with a frequency sweep — structurally unique, no confusion possible.
 7. **Explosive detonation** is broadband impulsive with duration >100 ms, distinguishing it from gunshot (<100 ms).
+
+## Underwater Acoustic Sources — Extended Frequency Reference
+
+| Source Type | Frequency Band | Peak Frequency | Detection Range (open ocean) | Classification Method | Notes |
+|---|---|---|---|---|---|
+| Blue whale B-call | 15–100 Hz | 16 Hz (fundamental) | 500+ km (deep sound channel) | LOFAR tonal + amplitude envelope | Duration 30–180 sec; upcall sweep from 16 → 28 Hz; strongest biologic signal in ocean |
+| Fin whale 20-Hz pulse | 18–28 Hz | 20 Hz | 300+ km | LOFAR pulse train; intercall interval 20–30 sec | Most common North Atlantic biologic false positive for passive sonar; regular cadence is diagnostic |
+| Humpback whale song | 100–4,000 Hz | 300–500 Hz | 50 km | Spectrogram pattern matching; phrase+theme structure | Complex hierarchical structure; seasonal; males only |
+| North Atlantic right whale upcall | 100–300 Hz | 150 Hz | 30 km | LOFAR + frequency sweep 70 → 150 Hz | Critically endangered; 5 sec duration; broadband sweep signature |
+| Sperm whale click train | 500–25,000 Hz | 3,000 Hz | 5–15 km | Inter-click interval (ICI) 0.5–2 sec | Echolocation clicks; loudest biological transient; used for depth estimation via ICI pattern |
+| Kilo-class diesel (snorkeling) | 50–200 Hz | 80 Hz | 20 km (LOFAR array) | LOFAR harmonics + DEMON 7× shaft-rate | Diesel firing frequency at 3–8 Hz; 7-blade propeller gives DEMON peak at 7× shaft rate |
+| Virginia-class reactor coolant pump | 80–300 Hz | 120 Hz | 50+ km (convergence zone) | LOFAR CW tonal; no amplitude modulation | Continuous tonal at reactor pump frequency; unique — no biological or commercial source is equivalent |
+| Type 212 AIP submarine (on fuel cell) | 20–80 Hz | 30 Hz | < 5 km (near-silent) | Occasional pump transient at 200–400 Hz; no sustained tonal | Near-threshold detection even with LOFAR; closest analog to blue whale infrasound at 20–80 Hz |
+| Container ship propeller | 50–400 Hz | 120 Hz (5× shaft-rate) | 30 km | DEMON 5-blade pattern; broadband cavitation above 500 Hz | Cavitation onset above 16 kts; broadband noise floor increases 6 dB per octave above 500 Hz |
+| Snapping shrimp (colony) | 2,000–200,000 Hz | 5,000 Hz | < 1 km | Broadband impulsive; no tonal structure | Pervasive tropical and subtropical background; effectively noise floor above 2 kHz in warm water |
+| Ambient ocean noise (Beaufort 3) | 10–100,000 Hz | 500 Hz | Background | Frequency-dependent level: −40 dBPa²/Hz at 100 Hz | Wind-generated whitecap noise dominates 100 Hz–10 kHz; shipping noise dominates 10–100 Hz |
+
+## Underwater Classification Decision Tree
+
+## Underwater Classification Decision Tree
+
+```
+Tonal (continuous-wave) signal present?
+├── YES → Continuous (not pulsed)?
+│         ├── YES → Frequency band 80–300 Hz?
+│         │         ├── YES → No biological equivalent → Nuclear submarine reactor pump
+│         │         └── NO (< 80 Hz) → AIP submarine, blue whale B-call, fin whale pulse
+│         └── NO (pulsed) → Intercall interval 20–30 sec?
+│                   ├── YES → Fin whale 20-Hz pulse (biologic)
+│                   └── NO  → Blue whale B-call sweep (16–28 Hz) or unknown biologic
+└── NO (broadband) → Impulsive?
+          ├── YES → Duration < 1 ms → Snapping shrimp (colony) or sperm whale click
+          └── NO (sustained broadband) → DEMON analysis: blade count?
+                    ├── 7-blade DEMON peak → Submarine (Kilo/Virginia/Type 212)
+                    ├── 4–6-blade DEMON peak → Commercial vessel
+                    └── No DEMON structure → Ambient weather noise or distant shipping
+```
+
+
+
+
+## LOFAR vs DEMON Analysis Summary
+
+| Technique | Domain | What It Detects | Resolution | Use Case |
+|---|---|---|---|---|
+| LOFAR | Frequency (< 1 kHz) | Continuous-wave tonals from rotating machinery | 0.03–0.1 Hz | Machinery line spectrum; reactor pump; propeller fundamental |
+| DEMON | AM envelope of broadband | Propeller shaft rate and blade count | 0.01–0.1 Hz | Vessel classification; blade count = shaft rate × blades |
+| LOFAR + DEMON combined | Both | Full signature including tonals AND blade count | High | Gold standard for passive contact classification |
+
+## Cross-Reference Rules (Underwater Layer)
+
+1. **Fin whale 20-Hz pulses** and **Kilo-class diesel tonals** both occupy 50–200 Hz; intercall interval (20–30 sec biologic vs. continuous mechanical) is the primary discriminant.
+2. **DEMON analysis** yields blade count — 7-blade submarine vs. 4–6-blade vessel is a key classifier.
+3. **Blue whale B-call** (15–100 Hz) is the lowest-frequency biologic — any tonal below 15 Hz in the ocean is almost certainly mechanical.
+4. **Virginia-class reactor pump** is the only source producing a continuous CW tonal in the 80–300 Hz band in open ocean — no commercial vessel or biologic equivalent.
+5. **Snapping shrimp** create a noise floor above 2 kHz in tropical/subtropical waters — any signal above this floor is effectively buried in shrimp noise at < 1 km.

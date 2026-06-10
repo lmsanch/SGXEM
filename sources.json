@@ -122,6 +122,73 @@
       "auto_download": false,
       "redistribution_status": "manual_only_noncommercial",
       "notes": "Users must download KITTI themselves and set KITTI_RAW_DIR. SGXEM must not redistribute KITTI frames, LiDAR, or embeddings."
+    },
+    {
+      "id": "shipsear",
+      "name": "ShipsEar \u2014 Underwater Vessel Noise Database",
+      "modality": "audio",
+      "access": "manual download from authors page",
+      "license": "Academic research use; see Santos-Dominguez et al. 2016",
+      "artifact_count_planned": 20,
+      "url": "https://atlantis.uc3m.es/SPAC/ShipsEar_db.html",
+      "local_path_env": "SHIPSEAR_DIR",
+      "raw_in_repo": false,
+      "subset_in_repo": false,
+      "derived_in_repo": false,
+      "commercial_use": false,
+      "auto_download": false,
+      "redistribution_status": "academic_contact_authors",
+      "notes": "Santos-Dominguez et al. 2016. 90 recordings, 11 vessel types, 5 broad classes (fishing/trawlers/tugs, motorboats/sailboats, passenger ferries, ocean liners, background). 1956 labeled 5-second frames. Set SHIPSEAR_DIR after downloading from authors."
+    },
+    {
+      "id": "sanctsound",
+      "name": "SanctSound \u2014 NOAA/Navy National Marine Sanctuary Passive Acoustic Monitoring",
+      "modality": "audio",
+      "access": "NOAA NCEI data access (public)",
+      "license": "Public Domain (U.S. Government / NOAA)",
+      "artifact_count_planned": 20,
+      "url": "https://www.ncei.noaa.gov/products/passive-acoustic-data",
+      "credential_env": null,
+      "raw_in_repo": false,
+      "subset_in_repo": "daily_presence_products_only",
+      "derived_in_repo": true,
+      "commercial_use": true,
+      "auto_download": true,
+      "redistribution_status": "redistributable",
+      "notes": "Co-produced by NOAA and the U.S. Navy. Annotated daily species presence products (CSV) are small and redistributable. Full raw hydrophone audio is large (TB+) and should be downloaded selectively. Blue whale, humpback, fin whale, right whale, sperm whale annotated. 10-10000 Hz, bottom-mounted hydrophone arrays at 13 NOAA National Marine Sanctuary sites."
+    },
+    {
+      "id": "deepship",
+      "name": "DeepShip \u2014 Underwater Ship Noise Database",
+      "modality": "audio",
+      "access": "Contact paper authors; Semantic Scholar / Zenodo",
+      "license": "Academic research; check with authors for commercial use",
+      "artifact_count_planned": 10,
+      "url": "https://www.sciencedirect.com/science/article/pii/S0957417421000847",
+      "local_path_env": "DEEPSHIP_DIR",
+      "raw_in_repo": false,
+      "subset_in_repo": false,
+      "derived_in_repo": false,
+      "commercial_use": false,
+      "auto_download": false,
+      "redistribution_status": "academic_pending_authors",
+      "notes": "Irfan et al. 2021. 47h 4min, 265 ships, 4 vessel classes (cargo, passengership, tanker, tug), multiple seasons and sea states. State-of-art classification 80%+. Transfer learning from cetacean PANNs demonstrated in Texas A&M / MIT Lincoln Lab 2024."
+    },
+    {
+      "id": "dclde_2024",
+      "name": "DCLDE 2024 \u2014 Detection, Classification, Localization, and Density Estimation Workshop",
+      "modality": "audio",
+      "access": "Request access from DRDC / NOAA consortium",
+      "license": "Government research; access on request",
+      "artifact_count_planned": 10,
+      "url": "https://www.fisheries.noaa.gov/event/detection-classification-localization-and-density-estimation-workshop-dclde-2024",
+      "raw_in_repo": false,
+      "subset_in_repo": false,
+      "derived_in_repo": false,
+      "commercial_use": false,
+      "auto_download": false,
+      "redistribution_status": "pending_request",
+      "notes": "32-sonobuoy field deployment, Gulf of St. Lawrence. NARW localization ground truth, coincident aerial and ship visual surveys, oceanographic glider data. Co-produced by DRDC/DFO/NOAA/Dalhousie. Contact: dclde-data@drdc-rddc.gc.ca to request access."
     }
   ],
   "text_sources": [
@@ -129,39 +196,61 @@
       "id": "sensor_handbook",
       "file": "sensor_handbook.md",
       "description": "Acoustic/thermal detection ranges for 6+ vehicle classes with distractor entries",
-      "bridge_types": ["vehicle_class", "platform_type"]
+      "bridge_types": [
+        "vehicle_class",
+        "platform_type"
+      ]
     },
     {
       "id": "ir_cooling_reference",
       "file": "ir_cooling_reference.md",
       "description": "IR persistence times for 5+ platform types after engine shutdown",
-      "bridge_types": ["platform_type", "vehicle_class"]
+      "bridge_types": [
+        "platform_type",
+        "vehicle_class"
+      ]
     },
     {
       "id": "platform_registry",
       "file": "platform_registry.md",
       "description": "Rotor counts, dimensions, MTOW for 8+ drone platforms",
-      "bridge_types": ["drone_model", "rotor_count"]
+      "bridge_types": [
+        "drone_model",
+        "rotor_count"
+      ]
     },
     {
       "id": "urban_threat_playbook",
       "file": "urban_threat_playbook.md",
       "description": "Standoff distances and response protocols for 6+ event types",
-      "bridge_types": ["event_type", "threat_level"]
+      "bridge_types": [
+        "event_type",
+        "threat_level"
+      ]
     },
     {
       "id": "spectral_guide",
       "file": "spectral_guide.md",
       "description": "Frequency bands and acoustic signatures for 8+ source types",
-      "bridge_types": ["acoustic_source", "frequency_band"]
+      "bridge_types": [
+        "acoustic_source",
+        "frequency_band"
+      ]
     },
     {
       "id": "perimeter_spec",
       "file": "perimeter_spec.md",
       "description": "Intrusion rules, detection thresholds for 5+ depth/terrain conditions",
-      "bridge_types": ["obstacle_type", "depth_threshold"]
+      "bridge_types": [
+        "obstacle_type",
+        "depth_threshold"
+      ]
     }
   ],
   "qa_count_target": 100,
-  "difficulty_levels": ["2-hop", "3-hop", "mixed-chain"]
+  "difficulty_levels": [
+    "2-hop",
+    "3-hop",
+    "mixed-chain"
+  ]
 }
