@@ -1,0 +1,27 @@
+{
+  "cluster": "cuba",
+  "entities": [
+    {"title": "Cuba", "type": "country", "sub_topic": "geography"},
+    {"title": "United States embargo against Cuba", "type": "policy", "sub_topic": "sanctions"},
+    {"title": "Helms–Burton Act", "type": "instrument", "sub_topic": "sanctions"},
+    {"title": "Cuban Assets Control Regulations", "type": "instrument", "sub_topic": "sanctions"},
+    {"title": "Cuban Democracy Act", "type": "instrument", "sub_topic": "sanctions"},
+    {"title": "Cuba–United States relations", "type": "relations", "sub_topic": "sanctions"},
+    {"title": "Intelligence Directorate", "type": "intelligence", "sub_topic": "intelligence"},
+    {"title": "Revolutionary Armed Forces of Cuba", "type": "military", "sub_topic": "intelligence"},
+    {"title": "Ministry of the Interior (Cuba)", "type": "agency", "sub_topic": "intelligence"},
+    {"title": "Cuban immigration to the United States", "type": "phenomenon", "sub_topic": "migration"},
+    {"title": "Wet feet, dry feet policy", "type": "policy", "sub_topic": "migration"},
+    {"title": "United States Coast Guard", "type": "agency", "sub_topic": "migration"},
+    {"title": "Cuba–Venezuela relations", "type": "relations", "sub_topic": "cross_cluster"},
+    {"title": "Miguel Díaz-Canel", "type": "person", "sub_topic": "politics"},
+    {"title": "Raúl Castro", "type": "person", "sub_topic": "politics"},
+    {"title": "Fidel Castro", "type": "person", "sub_topic": "politics"},
+    {"title": "Communist Party of Cuba", "type": "party", "sub_topic": "politics"},
+    {"title": "Guantanamo Bay Naval Base", "type": "facility", "sub_topic": "security"},
+    {"title": "Cuban Missile Crisis", "type": "event", "sub_topic": "security"},
+    {"title": "Havana", "type": "city", "sub_topic": "geography"},
+    {"title": "Cuban Revolution", "type": "event", "sub_topic": "politics"},
+    {"title": "ANPP", "type": "institution", "sub_topic": "politics"}
+  ]
+}

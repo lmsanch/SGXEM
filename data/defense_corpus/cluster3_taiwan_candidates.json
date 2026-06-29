@@ -1,0 +1,30 @@
+{
+  "cluster": "taiwan",
+  "entities": [
+    {"title": "Taiwan", "type": "country", "sub_topic": "geography"},
+    {"title": "Taiwan Strait", "type": "geography", "sub_topic": "geography"},
+    {"title": "Taiwan Relations Act", "type": "instrument", "sub_topic": "alliance"},
+    {"title": "One-China policy", "type": "policy", "sub_topic": "alliance"},
+    {"title": "Six Assurances", "type": "policy", "sub_topic": "alliance"},
+    {"title": "China–United States relations", "type": "relations", "sub_topic": "alliance"},
+    {"title": "People's Liberation Army", "type": "military", "sub_topic": "pla"},
+    {"title": "Eastern Theater Command", "type": "military", "sub_topic": "pla"},
+    {"title": "People's Liberation Army Navy", "type": "military", "sub_topic": "pla"},
+    {"title": "People's Liberation Army Air Force", "type": "military", "sub_topic": "pla"},
+    {"title": "People's Liberation Army Rocket Force", "type": "military", "sub_topic": "pla"},
+    {"title": "DF-21", "type": "weapon", "sub_topic": "pla"},
+    {"title": "Type 055 destroyer", "type": "weapon", "sub_topic": "pla"},
+    {"title": "TSMC", "type": "company", "sub_topic": "semiconductor"},
+    {"title": "Semiconductor industry in Taiwan", "type": "industry", "sub_topic": "semiconductor"},
+    {"title": "Kinmen", "type": "geography", "sub_topic": "military_geography"},
+    {"title": "Penghu", "type": "geography", "sub_topic": "military_geography"},
+    {"title": "First island chain", "type": "geography", "sub_topic": "military_geography"},
+    {"title": "Republic of China Armed Forces", "type": "military", "sub_topic": "roc_forces"},
+    {"title": "Republic of China Navy", "type": "military", "sub_topic": "roc_forces"},
+    {"title": "Republic of China Air Force", "type": "military", "sub_topic": "roc_forces"},
+    {"title": "Tsai Ing-wen", "type": "person", "sub_topic": "politics"},
+    {"title": "Lai Ching-te", "type": "person", "sub_topic": "politics"},
+    {"title": "China", "type": "country", "sub_topic": "geography"},
+    {"title": "Cross-Strait relations", "type": "relations", "sub_topic": "alliance"}
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "cluster": "brazil",
+  "entities": [
+    {"title": "Brazil", "type": "country", "sub_topic": "geography"},
+    {"title": "Amazon rainforest", "type": "geography", "sub_topic": "environment"},
+    {"title": "Deforestation of the Amazon rainforest", "type": "phenomenon", "sub_topic": "environment"},
+    {"title": "Brazilian Institute of Environment and Renewable Natural Resources", "type": "agency", "sub_topic": "environment"},
+    {"title": "Chico Mendes Institute for Biodiversity Conservation", "type": "agency", "sub_topic": "environment"},
+    {"title": "2024 Rio Grande do Sul floods", "type": "event", "sub_topic": "disaster"},
+    {"title": "Brazilian Army", "type": "military", "sub_topic": "disaster"},
+    {"title": "Brazil–United States relations", "type": "relations", "sub_topic": "defense"},
+    {"title": "Brazilian Armed Forces", "type": "military", "sub_topic": "defense"},
+    {"title": "Brazilian Navy", "type": "military", "sub_topic": "defense"},
+    {"title": "Brazilian Air Force", "type": "military", "sub_topic": "defense"},
+    {"title": "Saab JAS 39 Gripen", "type": "weapon", "sub_topic": "defense"},
+    {"title": "Petrobras", "type": "state_enterprise", "sub_topic": "economy"},
+    {"title": "Vale (company)", "type": "company", "sub_topic": "economy"},
+    {"title": "Embraer", "type": "company", "sub_topic": "economy"},
+    {"title": "Itaipu Dam", "type": "facility", "sub_topic": "economy"},
+    {"title": "Luiz Inácio Lula da Silva", "type": "person", "sub_topic": "politics"},
+    {"title": "Jair Bolsonaro", "type": "person", "sub_topic": "politics"},
+    {"title": "Brasília", "type": "city", "sub_topic": "geography"},
+    {"title": "Mercosur", "type": "organization", "sub_topic": "economy"},
+    {"title": "BRICS", "type": "organization", "sub_topic": "defense"}
+  ]
+}

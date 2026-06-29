@@ -1,0 +1,32 @@
+{
+  "cluster": "iran",
+  "entities": [
+    {"title": "Iran", "type": "country", "sub_topic": "geography"},
+    {"title": "Nuclear program of Iran", "type": "program", "sub_topic": "nuclear"},
+    {"title": "Natanz", "type": "facility", "sub_topic": "nuclear"},
+    {"title": "Fordow Fuel Enrichment Plant", "type": "facility", "sub_topic": "nuclear"},
+    {"title": "Bushehr Nuclear Power Plant", "type": "facility", "sub_topic": "nuclear"},
+    {"title": "Atomic Energy Organization of Iran", "type": "agency", "sub_topic": "nuclear"},
+    {"title": "International Atomic Energy Agency", "type": "organization", "sub_topic": "nuclear"},
+    {"title": "Joint Comprehensive Plan of Action", "type": "treaty", "sub_topic": "nuclear"},
+    {"title": "Enriched uranium", "type": "material", "sub_topic": "nuclear"},
+    {"title": "Sanctions against Iran", "type": "policy", "sub_topic": "sanctions"},
+    {"title": "National Iranian Oil Company", "type": "state_enterprise", "sub_topic": "sanctions"},
+    {"title": "Islamic Revolutionary Guard Corps", "type": "military", "sub_topic": "proxy"},
+    {"title": "Quds Force", "type": "military", "sub_topic": "proxy"},
+    {"title": "Hezbollah", "type": "armed_group", "sub_topic": "proxy"},
+    {"title": "Houthi movement", "type": "armed_group", "sub_topic": "proxy"},
+    {"title": "Kata'ib Hezbollah", "type": "armed_group", "sub_topic": "proxy"},
+    {"title": "Popular Mobilization Forces", "type": "armed_group", "sub_topic": "proxy"},
+    {"title": "Qasem Soleimani", "type": "person", "sub_topic": "proxy"},
+    {"title": "Axis of Resistance", "type": "coalition", "sub_topic": "proxy"},
+    {"title": "Strait of Hormuz", "type": "geography", "sub_topic": "maritime"},
+    {"title": "Islamic Republic of Iran Navy", "type": "military", "sub_topic": "maritime"},
+    {"title": "Islamic Revolutionary Guard Corps Navy", "type": "military", "sub_topic": "maritime"},
+    {"title": "Persian Gulf", "type": "geography", "sub_topic": "maritime"},
+    {"title": "Ali Khamenei", "type": "person", "sub_topic": "politics"},
+    {"title": "Mohammad Javad Zarif", "type": "person", "sub_topic": "politics"},
+    {"title": "Iran–United States relations", "type": "relations", "sub_topic": "international"},
+    {"title": "Iran–Israel proxy conflict", "type": "conflict", "sub_topic": "proxy"}
+  ]
+}
