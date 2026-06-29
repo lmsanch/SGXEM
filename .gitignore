@@ -29,3 +29,6 @@ artifacts/dclde_source/
 # regenerable from the committed entity lists) and derived KMS records/runtime state.
 data/defense_corpus/corpus/wiki_bridge/WIKI-*.txt
 data/defense_corpus/kms_records/
+
+# CRS raw prose (public domain; captured in sgxem_chunks.jsonl + crs_manifest.jsonl)
+data/defense_corpus/corpus/crs/

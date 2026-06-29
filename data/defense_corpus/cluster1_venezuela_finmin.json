@@ -1,0 +1,25 @@
+{
+  "cluster": "venezuela",
+  "_note": "Venezuelan Ministers of Finance/Hacienda succession + Alejandro Andrade (treasurer). Tenures captured for person->office->period bridge seeds.",
+  "entities": [
+    {"name": "Alejandro Andrade", "title": "Alejandro Andrade", "type": "person", "sub_topic": "sanctions", "tenure": "national treasurer 2007-2010"},
+    {"name": "Francisco Usón", "title": "Francisco Usón", "type": "person", "sub_topic": "factions", "tenure": "2002"},
+    {"name": "Carlos Rafael Silva", "title": "Carlos Rafael Silva", "type": "person", "sub_topic": "sanctions", "tenure": "1993-1994"},
+    {"name": "Julio Sosa Rodríguez", "title": "Julio Sosa Rodríguez", "type": "person", "sub_topic": "sanctions", "tenure": "1994-1995"},
+    {"name": "Luis Raúl Matos Azócar", "title": "Luis Raúl Matos Azócar", "type": "person", "sub_topic": "sanctions", "tenure": "1995-1997"},
+    {"name": "Freddy Rojas Parra", "title": "Freddy Rojas Parra", "type": "person", "sub_topic": "sanctions", "tenure": "1997-1998"},
+    {"name": "Maritza Izaguirre", "title": "Maritza Izaguirre", "type": "person", "sub_topic": "sanctions", "tenure": "1998-1999"},
+    {"name": "José Alejandro Rojas", "title": "José Alejandro Rojas", "type": "person", "sub_topic": "sanctions", "tenure": "1999-2000"},
+    {"name": "Nelson Merentes", "title": "Nelson Merentes", "type": "person", "sub_topic": "sanctions", "tenure": "2001-2002, 2004-2007, 2013-2014"},
+    {"name": "Tobías Nóbrega", "title": "Tobías Nóbrega", "type": "person", "sub_topic": "sanctions", "tenure": "2002-2004"},
+    {"name": "Rodrigo Cabeza Morales", "title": "Rodrigo Cabeza Morales", "type": "person", "sub_topic": "sanctions", "tenure": "2007-2008"},
+    {"name": "Rafael Isea", "title": "Rafael Isea", "type": "person", "sub_topic": "sanctions", "tenure": "2008"},
+    {"name": "Jorge Giordani", "title": "Jorge Giordani", "type": "person", "sub_topic": "sanctions", "tenure": "2010-2013"},
+    {"name": "Rodolfo Marco Torres", "title": "Rodolfo Marco Torres", "type": "person", "sub_topic": "sanctions", "tenure": "2014-2016"},
+    {"name": "Rodolfo Medina del Río", "title": "Rodolfo Medina del Río", "type": "person", "sub_topic": "sanctions", "tenure": "2016-2017"},
+    {"name": "Ramón Lobo", "title": "Ramón Lobo", "type": "person", "sub_topic": "sanctions", "tenure": "2017"},
+    {"name": "Simón Zerpa", "title": "Simón Zerpa", "type": "person", "sub_topic": "sanctions", "tenure": "2017-2020"},
+    {"name": "Delcy Rodríguez", "title": "Delcy Rodríguez", "type": "person", "sub_topic": "factions", "tenure": "2020-2024"},
+    {"name": "Anabel Pereira Fernández", "title": "Anabel Pereira Fernández", "type": "person", "sub_topic": "sanctions", "tenure": "2024-2025"}
+  ]
+}

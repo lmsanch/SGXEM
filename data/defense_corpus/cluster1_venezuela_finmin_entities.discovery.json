@@ -1,0 +1,53 @@
+{
+  "discovery_only": [
+    {
+      "name": "Carlos Rafael Silva",
+      "qid": "Q10861379",
+      "label": "Carlos Rafael Silva",
+      "description": "Venezuelan economist (1925-2016)",
+      "sub_topic": "sanctions"
+    },
+    {
+      "name": "Julio Sosa Rodríguez",
+      "qid": "Q140310513",
+      "label": "Julio Sosa Rodríguez",
+      "description": "",
+      "sub_topic": "sanctions"
+    },
+    {
+      "name": "Maritza Izaguirre",
+      "qid": "Q125973526",
+      "label": "Maritza Izaguirre",
+      "description": "Venezuelan sociologist and professor",
+      "sub_topic": "sanctions"
+    },
+    {
+      "name": "José Alejandro Rojas",
+      "qid": "Q116227716",
+      "label": "Jose Alejandro Rojas Pardini",
+      "description": "Minister of Private Investments of Panama",
+      "sub_topic": "sanctions"
+    },
+    {
+      "name": "Simón Zerpa",
+      "qid": "Q47394372",
+      "label": "Simón Zerpa",
+      "description": "Venezuelan civil servant",
+      "sub_topic": "sanctions"
+    },
+    {
+      "name": "Anabel Pereira Fernández",
+      "qid": "Q137178013",
+      "label": "Anabel Pereira Fernández",
+      "description": "Venezuelan lawyer",
+      "sub_topic": "sanctions"
+    }
+  ],
+  "no_match": [
+    "Luis Raúl Matos Azócar",
+    "Freddy Rojas Parra",
+    "Tobías Nóbrega",
+    "Rodrigo Cabeza Morales",
+    "Rodolfo Medina del Río"
+  ]
+}
