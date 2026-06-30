@@ -90,14 +90,44 @@ def call_glm(seed: dict, passages: list[dict]) -> dict:
                      f"wikidata_id={p['wikidata_id']}\n{p['text'][:700]}")
     user = "\n\n".join(lines)
     resp = http_json(FW_URL, {
-        "model": FW_MODEL, "temperature": 0.3, "max_tokens": 8000,  # GLM-5.2 reasoning_content eats budget
+        "model": FW_MODEL, "temperature": 0.3, "max_tokens": 12000,  # GLM-5.2 reasoning_content eats budget
         "messages": [{"role": "system", "content": sys_prompt},
                      {"role": "user", "content": user}],
-    }, headers={"Authorization": f"Bearer {os.environ['FIREWORKS_API_KEY']}"})
-    content = resp["choices"][0]["message"]["content"]
+    }, headers={"Authorization": f"Bearer {os.environ['FIREWORKS_API_KEY']}"}, timeout=240)
+    content = resp["choices"][0]["message"].get("content", "") or ""
     content = re.sub(r"<think>.*?</think>", "", content, flags=re.DOTALL)
-    m = re.search(r"\{.*\}", content, re.DOTALL)
-    return json.loads(m.group(0)) if m else {"rejection": True, "reason": "unparseable", "raw": content[:400]}
+    obj = _extract_json(content)
+    return obj if obj is not None else {"rejection": True, "reason": "unparseable", "raw": content[:400]}
+
+
+def _extract_json(text: str) -> dict | None:
+    """Extract the first complete JSON object by brace-balancing (robust to pre/post text)."""
+    start = text.find("{")
+    if start < 0:
+        return None
+    depth, in_str, esc = 0, False, False
+    for i in range(start, len(text)):
+        ch = text[i]
+        if in_str:
+            if esc:
+                esc = False
+            elif ch == "\\":
+                esc = True
+            elif ch == '"':
+                in_str = False
+        else:
+            if ch == '"':
+                in_str = True
+            elif ch == "{":
+                depth += 1
+            elif ch == "}":
+                depth -= 1
+                if depth == 0:
+                    try:
+                        return json.loads(text[start:i + 1])
+                    except json.JSONDecodeError:
+                        return None
+    return None
 
 
 def assemble(seed: dict, comp: dict, passages: list[dict], as_of: str) -> dict:

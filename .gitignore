@@ -32,3 +32,6 @@ data/defense_corpus/kms_records/
 
 # CRS raw prose (public domain; captured in sgxem_chunks.jsonl + crs_manifest.jsonl)
 data/defense_corpus/corpus/crs/
+
+# T5 raw compositions (regenerable; large)
+data/t5_raw/
