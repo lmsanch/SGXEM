@@ -43,15 +43,23 @@ def main() -> int:
     ap.add_argument("--name", default="afwerk_defense_benchmark")
     a = ap.parse_args()
 
+    import sys
+    sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
+    from build import validate_musique  # noqa: E402
+
     recs = [json.loads(l) for l in a.inp.read_text().splitlines() if l.strip()]
-    kept = []
+    kept, n_build_fail = [], 0
     for r in recs:
         if r.get("rejection"):
             continue
         if a.require_nli and r.get("gate", {}).get("nli_all_hops_entailed") is not True:
             continue
         r["answer_aliases"] = expand_aliases(r.get("answer", ""), r.get("answer_aliases", []))
-        kept.append({k: r[k] for k in PUBLISH_FIELDS if k in r})
+        pub = {k: r[k] for k in PUBLISH_FIELDS if k in r}
+        if validate_musique(pub):       # build.py schema/defensibility gate
+            n_build_fail += 1
+            continue
+        kept.append(pub)
 
     # global corpus: de-duped union of all paragraphs (text is the join key)
     corpus, seen = [], {}
@@ -82,7 +90,7 @@ def main() -> int:
     hp = Counter(r["hop_count"] for r in kept)
     tp = Counter(r["temporal_sensitivity"] for r in kept)
     print(f"kept {len(kept)}/{len(recs)} records  | corpus {len(corpus)} passages  | "
-          f"verbatim-join missing={missing}")
+          f"verbatim-join missing={missing}  | build.py-dropped={n_build_fail}")
     print(f"  cluster {dict(cl)}  hop {dict(hp)}  temporal {dict(tp)}")
     print(f"  {jsonl_path}\n  {json_path}\n  {corpus_path}")
     print(f"SHA-256 ({jsonl_path.name}): {sha}")
