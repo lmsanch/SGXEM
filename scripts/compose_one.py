@@ -83,6 +83,11 @@ def retrieve(query: str, k: int) -> list[dict]:
 
 def call_glm(seed: dict, passages: list[dict]) -> dict:
     sys_prompt = SYSTEM.replace("{hop_count}", str(seed["hop_count"]))
+    avoid = seed.get("avoid_answers") or []
+    if avoid:
+        sys_prompt += ("\n\nDIVERSITY: do NOT produce a question whose final answer is (or is "
+                       "equivalent to) any of these already-used answers — pick a DIFFERENT fact:\n- "
+                       + "\n- ".join(str(x)[:80] for x in avoid[:60]))
     lines = [f"SEED: cluster={seed['cluster']} sub_topic={seed['sub_topic']} hop_count={seed['hop_count']}",
              "", "RETRIEVED PASSAGES:"]
     for p in passages:
