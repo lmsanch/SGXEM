@@ -56,19 +56,30 @@ def call(model: str, sys_p: str, user: str) -> dict | None:
     body = json.dumps({"model": model, "temperature": 0.2, "max_tokens": 4000,
                        "messages": [{"role": "system", "content": sys_p},
                                     {"role": "user", "content": user}]}).encode()
+    stage = "adversary" if model == ADVERSARY else "judge"
     for _ in range(3):                            # retry to avoid fail-closing on API noise
         req = urllib.request.Request(FW_URL, data=body, method="POST",
                                      headers={"Content-Type": "application/json", "User-Agent": "curl/8.5",
                                               "Authorization": f"Bearer {os.environ['FIREWORKS_API_KEY']}"})
         try:
             with urllib.request.urlopen(req, timeout=180) as r:
-                content = json.load(r)["choices"][0]["message"].get("content", "") or ""
+                resp = json.load(r)
+            _log_tokens(stage, model, resp.get("usage"))
+            content = resp["choices"][0]["message"].get("content", "") or ""
             obj = _extract_json(content)
             if obj is not None:
                 return obj
         except Exception:  # noqa: BLE001
             continue
     return None                                   # None = genuine no-response (caller decides)
+
+
+def _log_tokens(stage: str, model: str, usage) -> None:
+    try:
+        import tokens
+        tokens.add(stage, model, usage)
+    except Exception:  # noqa: BLE001
+        pass
 
 
 def gate_one(rec: dict) -> dict:

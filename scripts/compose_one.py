@@ -22,7 +22,7 @@ FW_URL = "https://api.fireworks.ai/inference/v1/chat/completions"
 FW_MODEL = "accounts/fireworks/models/glm-5p2"
 
 # Composer provider (default o4-mini via Requesty; set SGXEM_COMPOSER=glm to use Fireworks GLM-5.2)
-COMPOSER = os.getenv("SGXEM_COMPOSER", "o4-mini")
+COMPOSER = os.getenv("SGXEM_COMPOSER", "glm")
 if COMPOSER == "glm":
     COMPOSER_URL, COMPOSER_MODEL, COMPOSER_KEY_ENV, COMPOSER_REASONING = FW_URL, FW_MODEL, "FIREWORKS_API_KEY", False
 else:
@@ -40,6 +40,17 @@ def load_keys() -> None:
         for line in Path("/research/afwerk/.env").read_text().splitlines():
             if line.startswith(env + "="):
                 os.environ[env] = line.split("=", 1)[1].strip().strip('"').strip("'")
+
+
+def _log_tokens(stage: str, model: str, usage) -> None:
+    """Best-effort token-ledger append (never breaks composition)."""
+    try:
+        import sys
+        sys.path.insert(0, str(Path(__file__).resolve().parent))
+        import tokens
+        tokens.add(stage, model, usage)
+    except Exception:  # noqa: BLE001
+        pass
 
 
 SYSTEM = """You compose HARD questions for an open defense/geopolitical multi-hop QA benchmark.
@@ -145,6 +156,7 @@ def call_glm(seed: dict, passages: list[dict]) -> dict:
         try:
             resp = http_json(COMPOSER_URL, payload,
                              headers={"Authorization": f"Bearer {os.environ[COMPOSER_KEY_ENV]}"}, timeout=240)
+            _log_tokens("compose", COMPOSER_MODEL, resp.get("usage"))
             content = resp["choices"][0]["message"].get("content", "") or ""
             content = re.sub(r"<think>.*?</think>", "", content, flags=re.DOTALL)
             obj = _extract_json(content)
