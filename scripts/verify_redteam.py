@@ -27,12 +27,21 @@ FW_URL = "https://api.fireworks.ai/inference/v1/chat/completions"
 ADVERSARY = "accounts/fireworks/models/kimi-k2p6"
 JUDGE = "accounts/fireworks/models/deepseek-v4-pro"
 
-ADVERSARY_SYS = """You are an adversary trying to BREAK a multi-hop QA question. Given the QUESTION,
-its intended ANSWER, and its hop chain, decide if a strong model could answer it CORRECTLY
-WITHOUT performing the multi-hop chain — via world knowledge, because the answer is uniquely/
-obviously guessable, a lexical leak (wording points straight to one passage), or a format
-shortcut. Be strict; default breakable=true if unsure. Output JSON ONLY:
-{"breakable": <bool>, "reason": "..."}"""
+ADVERSARY_SYS = """You judge whether a question is a GENUINE multi-hop question — i.e. whether it
+STRUCTURALLY requires combining several passages. You are given the QUESTION, its ANSWER, the hop
+chain, and the SUPPORTING PASSAGES.
+
+CRITICAL: judge using ONLY these passages and the chain's logic. Do NOT use any outside or world
+knowledge about the entities — assume you have never heard of any of them and know nothing beyond
+these passages. (We are NOT testing whether a well-read model already knows the answer; we are
+testing whether the chain is logically necessary.)
+
+Decide:
+- single_passage: can the full ANSWER be found in ONE single supporting passage by itself (no
+  combining)? true/false.
+- skippable: can you reach the final answer WITHOUT using one of the cited passages — i.e., is some
+  hop redundant or is there a shorter path through the passages? true/false.
+Output JSON ONLY: {"single_passage": <bool>, "skippable": <bool>, "reason": "..."}"""
 
 JUDGE_SYS = """You are a strict quality judge for a multi-hop QA benchmark. Given the QUESTION,
 ANSWER, and hop chain, assess:
@@ -43,33 +52,47 @@ ANSWER, and hop chain, assess:
 Be strict. Output JSON ONLY: {"forced_link": <bool>, "quality_ok": <bool>, "reason": "..."}"""
 
 
-def call(model: str, sys_p: str, user: str) -> dict:
+def call(model: str, sys_p: str, user: str) -> dict | None:
     body = json.dumps({"model": model, "temperature": 0.2, "max_tokens": 4000,
                        "messages": [{"role": "system", "content": sys_p},
                                     {"role": "user", "content": user}]}).encode()
-    req = urllib.request.Request(FW_URL, data=body, method="POST",
-                                 headers={"Content-Type": "application/json", "User-Agent": "curl/8.5",
-                                          "Authorization": f"Bearer {os.environ['FIREWORKS_API_KEY']}"})
-    try:
-        with urllib.request.urlopen(req, timeout=180) as r:
-            content = json.load(r)["choices"][0]["message"].get("content", "") or ""
-        return _extract_json(content) or {}
-    except Exception:  # noqa: BLE001
-        return {}
+    for _ in range(3):                            # retry to avoid fail-closing on API noise
+        req = urllib.request.Request(FW_URL, data=body, method="POST",
+                                     headers={"Content-Type": "application/json", "User-Agent": "curl/8.5",
+                                              "Authorization": f"Bearer {os.environ['FIREWORKS_API_KEY']}"})
+        try:
+            with urllib.request.urlopen(req, timeout=180) as r:
+                content = json.load(r)["choices"][0]["message"].get("content", "") or ""
+            obj = _extract_json(content)
+            if obj is not None:
+                return obj
+        except Exception:  # noqa: BLE001
+            continue
+    return None                                   # None = genuine no-response (caller decides)
 
 
 def gate_one(rec: dict) -> dict:
     decomp = rec.get("question_decomposition", [])
     chain = " | ".join(f"hop{i+1}: {h.get('question')} -> {h.get('answer')}" for i, h in enumerate(decomp))
-    user = f"QUESTION: {rec.get('question')}\nANSWER: {rec.get('answer')}\nHOP CHAIN: {chain}\nhop_count: {rec.get('hop_count')}"
-    adv = call(ADVERSARY, ADVERSARY_SYS, user)
-    jud = call(JUDGE, JUDGE_SYS, user)
+    sup = [p for p in rec.get("paragraphs", []) if p.get("is_supporting")]
+    pass_txt = "\n\n".join(f"[passage {i+1}] {p.get('title','')}: {(p.get('paragraph_text') or '')[:700]}"
+                           for i, p in enumerate(sup))
+    base = f"QUESTION: {rec.get('question')}\nANSWER: {rec.get('answer')}\nHOP CHAIN: {chain}\nhop_count: {rec.get('hop_count')}"
+    adv = call(ADVERSARY, ADVERSARY_SYS, base + "\n\nSUPPORTING PASSAGES:\n" + pass_txt)
+    jud = call(JUDGE, JUDGE_SYS, base)
+    no_resp = adv is None or jud is None
+    adv = adv or {}
+    jud = jud or {}
+    single = bool(adv.get("single_passage", True))
+    skippable = bool(adv.get("skippable", True))
     return {
-        "breakable": bool(adv.get("breakable", True)),          # default fail-closed
+        "single_passage": single,
+        "breakable": single or skippable,                       # structural: not genuinely multi-hop
         "forced_link": bool(jud.get("forced_link", True)),
         "quality_ok": bool(jud.get("quality_ok", False)),
         "adv_reason": adv.get("reason", "no-response"),
         "judge_reason": jud.get("reason", "no-response"),
+        "no_response": no_resp,
     }
 
 
@@ -101,11 +124,13 @@ def main() -> int:
         r = recs[i]; v = res.get(i, {})
         g = r.setdefault("gate", {})
         g["red_team_breakable"] = v.get("breakable", True)
+        g["single_passage_sufficient"] = v.get("single_passage", True)
         au = r.setdefault("_audit", {})
         au["forced_link"] = v.get("forced_link", True)
         au["quality_ok"] = v.get("quality_ok", False)
         au["adv_reason"] = v.get("adv_reason", "")
         au["judge_reason"] = v.get("judge_reason", "")
+        au["no_response"] = v.get("no_response", False)
         green = (g.get("nli_all_hops_entailed") is True and g.get("red_team_breakable") is False
                  and g.get("single_passage_sufficient") is False and au["forced_link"] is False
                  and au["quality_ok"] is True)

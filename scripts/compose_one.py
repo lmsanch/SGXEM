@@ -21,32 +21,69 @@ QDRANT = "http://localhost:6333"
 FW_URL = "https://api.fireworks.ai/inference/v1/chat/completions"
 FW_MODEL = "accounts/fireworks/models/glm-5p2"
 
-SYSTEM = """You compose questions for an open defense/geopolitical multi-hop QA benchmark.
+# Composer provider (default o4-mini via Requesty; set SGXEM_COMPOSER=glm to use Fireworks GLM-5.2)
+COMPOSER = os.getenv("SGXEM_COMPOSER", "o4-mini")
+if COMPOSER == "glm":
+    COMPOSER_URL, COMPOSER_MODEL, COMPOSER_KEY_ENV, COMPOSER_REASONING = FW_URL, FW_MODEL, "FIREWORKS_API_KEY", False
+else:
+    COMPOSER_URL = "https://router.requesty.ai/v1/chat/completions"
+    COMPOSER_MODEL = "openai/o4-mini"
+    COMPOSER_KEY_ENV = "REQUESTY_API_KEY"
+    COMPOSER_REASONING = True   # o4-mini: uses max_completion_tokens, no temperature
 
-You are given a SEED (cluster, sub_topic, hop_count) and RETRIEVED PASSAGES (each: source_id,
-title, source_tier, wikidata_id, text). Compose ONE natural-language multi-hop question.
+
+def load_keys() -> None:
+    """Load FIREWORKS_API_KEY + REQUESTY_API_KEY from afwerk .env if not already set."""
+    for env in (COMPOSER_KEY_ENV, "FIREWORKS_API_KEY"):
+        if os.environ.get(env):
+            continue
+        for line in Path("/research/afwerk/.env").read_text().splitlines():
+            if line.startswith(env + "="):
+                os.environ[env] = line.split("=", 1)[1].strip().strip('"').strip("'")
+
+
+SYSTEM = """You compose HARD questions for an open defense/geopolitical multi-hop QA benchmark.
+The benchmark's whole value is that a question CANNOT be answered without doing the multi-hop
+retrieval chain. A strong independent adversary will try to break each question — if it can be
+answered without chaining, it is rejected. Compose so it survives.
+
+You get a SEED (cluster, sub_topic, hop_count) and RETRIEVED PASSAGES (each: source_id, title,
+source_tier, wikidata_id, text). Compose ONE natural-language {hop_count}-hop question.
 
 HARD RULES:
-- Use ONLY facts present in the provided passages. Never use outside knowledge. If the passages
-  do not support a genuine {hop_count}-hop chain, output {"rejection": true, "reason": "..."}.
-- The BRIDGE ENTITY (the entity that links hop i's answer to hop i+1's passage) MUST NOT appear
-  anywhere in the final `question`. Describe it indirectly. Naming it collapses the chain.
-- The chain must require {hop_count} passages: no single passage may answer the whole question.
-- Cite the EXACT source_id of the passage supporting each hop. Never invent a source_id.
-- The final `answer` must be verbatim (or a minimal span) from the last hop's cited passage.
+- Use ONLY facts in the passages. No outside knowledge. If they don't support a genuine
+  {hop_count}-hop chain, output {"rejection": true, "reason": "..."}.
+- The BRIDGE ENTITY (links hop i's answer to hop i+1's passage) MUST NOT appear in the question.
+- Each hop must be NECESSARY: removing any one cited passage must make the final answer
+  underivable. No single passage may answer the whole question.
+- Cite the EXACT source_id supporting each hop. Never invent one. Final `answer` = verbatim (or
+  minimal span) from the last hop's passage.
+
+STRUCTURAL NECESSITY (this is the bar — obey strictly):
+- The answer must NOT be derivable from any SINGLE one of the cited passages. Each hop's passage
+  contributes a distinct, required link; remove any one and the answer becomes underivable.
+- Do NOT name the bridge entity, and do NOT echo distinctive words/identifiers that appear in the
+  gold-answer passage — that lets a solver jump straight to the answer's passage and skip the chain.
+- Every intermediate hop must be NECESSARY: there must be no shorter path from the question's stated
+  facts to the final answer using only the passages.
+
+SELF-CHECK BEFORE OUTPUT (mandatory, STRUCTURAL — judge using ONLY the passages, assume zero prior
+knowledge of these entities): (a) could the full answer be found in a single cited passage? (b) is
+any hop skippable — can you reach the answer without one of the passages? If (a) or (b) is yes,
+REWRITE so every hop is required; if it still isn't genuinely {hop_count}-hop, output a rejection.
 
 Output JSON ONLY:
 {
-  "question": "natural language, bridge entity hidden",
+  "question": "natural language, bridge entity hidden, no answer-leaking specifics",
   "answer": "final answer, verbatim from the gold passage",
-  "answer_aliases": ["..."],
-  "hidden_bridge": "the bridge entity you hid (for audit; never in the question)",
+  "answer_aliases": ["every surface form / abbreviation of the answer"],
+  "hidden_bridge": "the bridge entity you hid (audit; never in the question)",
+  "leak_self_check": "one line: why an adversary cannot answer this without the chain",
   "hops": [
     {"question": "sub-question", "answer": "sub-answer", "source_id": <int>, "bridge_qid": "Qxxxx"}
   ]
 }
-hops length MUST equal hop_count. bridge_qid = the wikidata_id of the entity that this hop's
-answer corresponds to (from the cited passage), or "" if unknown."""
+hops length MUST equal hop_count. bridge_qid = the wikidata_id of this hop's answer entity, or ""."""
 
 
 def http_json(url: str, payload: dict, headers: dict | None = None, timeout: int = 120) -> dict:
@@ -94,15 +131,29 @@ def call_glm(seed: dict, passages: list[dict]) -> dict:
         lines.append(f"[source_id={p['source_id']}] title={p['title']!r} tier={p['source_tier']} "
                      f"wikidata_id={p['wikidata_id']}\n{p['text'][:700]}")
     user = "\n\n".join(lines)
-    resp = http_json(FW_URL, {
-        "model": FW_MODEL, "temperature": 0.3, "max_tokens": 12000,  # GLM-5.2 reasoning_content eats budget
-        "messages": [{"role": "system", "content": sys_prompt},
-                     {"role": "user", "content": user}],
-    }, headers={"Authorization": f"Bearer {os.environ['FIREWORKS_API_KEY']}"}, timeout=240)
-    content = resp["choices"][0]["message"].get("content", "") or ""
-    content = re.sub(r"<think>.*?</think>", "", content, flags=re.DOTALL)
-    obj = _extract_json(content)
-    return obj if obj is not None else {"rejection": True, "reason": "unparseable", "raw": content[:400]}
+    load_keys()
+    payload = {"model": COMPOSER_MODEL,
+               "messages": [{"role": "system", "content": sys_prompt},
+                            {"role": "user", "content": user}]}
+    if COMPOSER_REASONING:                       # o4-mini: reasoning model
+        payload["max_completion_tokens"] = 14000
+    else:                                        # GLM-5.2
+        payload["temperature"] = 0.3
+        payload["max_tokens"] = 12000
+    last = ""
+    for _ in range(2):                           # retry once on transient/empty
+        try:
+            resp = http_json(COMPOSER_URL, payload,
+                             headers={"Authorization": f"Bearer {os.environ[COMPOSER_KEY_ENV]}"}, timeout=240)
+            content = resp["choices"][0]["message"].get("content", "") or ""
+            content = re.sub(r"<think>.*?</think>", "", content, flags=re.DOTALL)
+            obj = _extract_json(content)
+            if obj is not None:
+                return obj
+            last = content[:300]
+        except Exception as exc:  # noqa: BLE001
+            last = str(exc)[:200]
+    return {"rejection": True, "reason": "unparseable", "raw": last}
 
 
 def _extract_json(text: str) -> dict | None:
