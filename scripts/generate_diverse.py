@@ -35,7 +35,7 @@ def seed_pool(cluster: str, anchors: list[str]) -> list[dict]:
     for ai, q in enumerate(anchors):
         for k in range(2):
             hop = hops[(ai * 2 + k) % len(hops)]
-            rec = (ai % 5 == 0 and k == 0)  # ~10% recency
+            rec = ((ai * 2 + k) % 5 < 2)  # ~40% recency (the knockout axis)
             seeds.append({"seed_id": f"{cluster[:2].upper()}{sid:05d}", "cluster": cluster,
                           "sub_topic": "recency" if rec else "general", "bridge_type": "entity_bridge",
                           "hop_count": hop, "retrieval_query": (q + (" 2025 2026 latest" if rec else "")),
@@ -61,8 +61,8 @@ def compose_seed(seed: dict, avoid: list[str], topk: int, as_of: str) -> dict:
 
 def main() -> int:
     ap = argparse.ArgumentParser(description=__doc__)
-    ap.add_argument("--clusters", default="iran,taiwan,cuba,brazil")
-    ap.add_argument("--anchors", type=Path, default=Path("data/t5_raw/breadth_anchors.json"))
+    ap.add_argument("--clusters", default="venezuela,iran,taiwan,cuba,brazil")
+    ap.add_argument("--anchors", type=Path, default=Path("data/t5_raw/all_anchors.json"))
     ap.add_argument("--accept-per-cluster", type=int, default=120, help="raw accepts/cluster (oversample for gating)")
     ap.add_argument("--per-answer", type=int, default=2)
     ap.add_argument("--workers", type=int, default=10)
