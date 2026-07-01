@@ -28,14 +28,14 @@ def norm(a: str) -> str:
     return re.sub(r"\s+", " ", re.sub(r"[^\w\s]", "", str(a).lower())).strip()
 
 
-def seed_pool(cluster: str, anchors: list[str]) -> list[dict]:
+def seed_pool(cluster: str, anchors: list[str], recency_frac: float = 0.4) -> list[dict]:
     seeds, sid = [], 0
-    # each anchor -> 2 seeds at varied hop counts; recency on ~10%
+    rthr = round(recency_frac * 10)
     hops = [h for h, w in HOPW for _ in range(int(w * 20))]  # 8x2,7x3,5x4 pattern
     for ai, q in enumerate(anchors):
         for k in range(2):
             hop = hops[(ai * 2 + k) % len(hops)]
-            rec = ((ai * 2 + k) % 5 < 2)  # ~40% recency (the knockout axis)
+            rec = ((ai * 2 + k) % 10) < rthr  # recency fraction (the knockout axis)
             seeds.append({"seed_id": f"{cluster[:2].upper()}{sid:05d}", "cluster": cluster,
                           "sub_topic": "recency" if rec else "general", "bridge_type": "entity_bridge",
                           "hop_count": hop, "retrieval_query": (q + (" 2025 2026 latest" if rec else "")),
@@ -69,6 +69,9 @@ def main() -> int:
     ap.add_argument("--round-size", type=int, default=24)
     ap.add_argument("--topk", type=int, default=10)
     ap.add_argument("--as-of", default="2026-06-29")
+    ap.add_argument("--recency-frac", type=float, default=0.4)
+    ap.add_argument("--seed-avoid", type=Path, default=None,
+                    help="JSON list of answers to pre-avoid (e.g. an existing batch's answers)")
     ap.add_argument("--out", type=Path, default=Path("data/t5_raw/breadth.jsonl"))
     a = ap.parse_args()
     if "FIREWORKS_API_KEY" not in os.environ:
@@ -76,6 +79,7 @@ def main() -> int:
             if line.startswith("FIREWORKS_API_KEY"):
                 os.environ["FIREWORKS_API_KEY"] = line.split("=", 1)[1].strip().strip('"')
     anchors = json.loads(a.anchors.read_text())
+    avoid_seed = [norm(x) for x in json.loads(a.seed_avoid.read_text())] if a.seed_avoid else []
 
     a.out.parent.mkdir(parents=True, exist_ok=True)
     # resume: load prior accepted answers per cluster
@@ -92,8 +96,10 @@ def main() -> int:
     fout = a.out.open("a", encoding="utf-8")
     for cluster in a.clusters.split(","):
         cnt = ans_count.setdefault(cluster, Counter())
-        accepted = sum(cnt.values())
-        pool = [s for s in seed_pool(cluster, anchors.get(cluster, [])) if s["seed_id"] not in done_seed]
+        accepted = sum(cnt.values())                # real accepts from resume (0 for a fresh file)
+        for av in avoid_seed:                       # pre-seed existing-batch answers at cap -> avoided (not counted)
+            cnt[av] = max(cnt[av], a.per_answer)
+        pool = [s for s in seed_pool(cluster, anchors.get(cluster, []), a.recency_frac) if s["seed_id"] not in done_seed]
         print(f"[{cluster}] pool={len(pool)} already_accepted={accepted} target={a.accept_per_cluster}", flush=True)
         pi = 0
         while accepted < a.accept_per_cluster and pi < len(pool):
