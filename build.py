@@ -18,7 +18,7 @@ MUSIQUE_REQUIRED = [
     "question_decomposition", "cluster", "sub_topic", "hop_count",
     "modality", "source_reliability", "gate", "as_of", "temporal_sensitivity",
 ]
-VALID_CLUSTERS = {"venezuela", "iran", "taiwan", "cuba", "brazil"}
+VALID_CLUSTERS = {"venezuela", "iran", "taiwan", "cuba", "brazil", "supply_chain"}
 VALID_MODALITY = {"text", "audio", "depth", "thermal"}
 VALID_RELIABILITY = {"high", "medium", "low"}
 VALID_TEMPORAL = {"timeless", "recency"}          # the as-of temporal split
