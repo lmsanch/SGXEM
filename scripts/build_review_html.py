@@ -123,7 +123,7 @@ const K='sgxem_review_v1';
 let st=JSON.parse(localStorage.getItem(K)||'{}');
 function save(){localStorage.setItem(K,JSON.stringify(st))}
 document.addEventListener('change',e=>{
-  if(e.target.name&&e.target.name.startsWith('v_')){const id=e.target.name.slice(2);st[id]=st[id]||{};st[id].v=e.target.value;save()}
+  if(e.target.name&&e.target.name.startsWith('v_')){const id=e.target.name.slice(2);st[id]=st[id]||{};st[id].v=e.target.value;save();filt()}
 });
 document.addEventListener('input',e=>{
   if(e.target.classList.contains('cmt')){const id=e.target.dataset.rid;st[id]=st[id]||{};st[id].c=e.target.value;save()}
@@ -131,9 +131,14 @@ document.addEventListener('input',e=>{
 function restore(){for(const id in st){const v=st[id].v;if(v){const r=document.querySelector(`input[name="v_${id}"][value="${v}"]`);if(r)r.checked=true}
   const c=document.querySelector(`.cmt[data-rid="${id}"]`);if(c&&st[id].c)c.value=st[id].c}}
 function exp(){const b=new Blob([JSON.stringify(st,null,2)],{type:'application/json'});const a=document.createElement('a');a.href=URL.createObjectURL(b);a.download='review_decisions.json';a.click()}
-function filt(){const fc=val('fc'),fh=val('fh'),ft=val('ft'),fs=val('fs');let n=0;
-  document.querySelectorAll('.card').forEach(c=>{const ok=(!fc||c.dataset.cluster===fc)&&(!fh||c.dataset.hop===fh)&&(!ft||c.dataset.temporal===ft)&&(!fs||c.dataset.status===fs);c.style.display=ok?'':'none';if(ok)n++});
-  document.getElementById('shown').textContent=n}
+function filt(){const fc=val('fc'),fh=val('fh'),ft=val('ft'),fs=val('fs'),fv=val('fv');let n=0,dec=0;
+  document.querySelectorAll('.card').forEach(c=>{const id=c.dataset.id;const v=(st[id]&&st[id].v)||'';
+    if(v)dec++;
+    const vok = !fv ? true : (fv==='undecided' ? !v : v===fv);
+    const ok=(!fc||c.dataset.cluster===fc)&&(!fh||c.dataset.hop===fh)&&(!ft||c.dataset.temporal===ft)&&(!fs||c.dataset.status===fs)&&vok;
+    c.style.display=ok?'':'none';if(ok)n++});
+  document.getElementById('shown').textContent=n;
+  const d=document.getElementById('decided');if(d)d.textContent=dec}
 function val(id){return document.getElementById(id).value}
 window.onload=()=>{restore();filt()}
 """
@@ -163,8 +168,9 @@ def main() -> int:
  hop <select id="fh" onchange="filt()"><option value="">all</option>{opts([2,3,4])}</select>
  temporal <select id="ft" onchange="filt()"><option value="">all</option>{opts(["timeless","recency"])}</select>
  status <select id="fs" onchange="filt()"><option value="">all</option>{opts(["composed","rejected"])}</select>
+ <b>my review</b> <select id="fv" onchange="filt()"><option value="undecided">⬜ to review</option><option value="">all</option><option value="keep">✅ keep</option><option value="drop">❌ drop</option><option value="rewrite">✏️ rewrite</option></select>
  <button onclick="exp()">⬇ export decisions</button>
- <span class="counts">showing <b id="shown">0</b></span>
+ <span class="counts">showing <b id="shown">0</b> · decided <b id="decided">0</b></span>
 </div></div>
 <div class="wrap">{cards}</div>
 <script>{JS}</script></body></html>"""
