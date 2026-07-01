@@ -21,8 +21,8 @@ QDRANT_HOST=localhost $PY scripts/set_source_tier.py --collection afwerk_defense
 
 # 3) compose supply_chain (2-3 hop; recency low), live dedup
 say "compose supply_chain (accept 90, GLM)..."
-rm -f $RAW/supply.jsonl
-$PY scripts/generate_diverse.py --clusters supply_chain --accept-per-cluster 90 --workers 10 \
+
+$PY scripts/generate_diverse.py --clusters supply_chain --accept-per-cluster 170 --workers 10 \
     --out $RAW/supply.jsonl >> "$LOG" 2>&1
 say "composed: $(wc -l < $RAW/supply.jsonl) raw"
 
