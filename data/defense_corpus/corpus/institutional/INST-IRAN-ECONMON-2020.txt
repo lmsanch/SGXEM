@@ -1,0 +1,1897 @@
+# Iran Economic Monitor: Weathering the Triple-Shock (Fall 2020, 7th ed.)
+
+IRAN ECONOMIC
+MONITOR
+Weathering the
+Triple-Shock
+Fall 2020
+Middle East and North Africa Region
+Iran Economic Monitor
+Weathering the Triple-Shock
+With a Special Focus on
+Welfare impacts of inflation and the COVID-19 outbreak in Iran
+Fall 2020 (Seventh edition)
+IRAN ECONOM
+MONITO
+Middle East and North Africa Region
+Weatherin
+triple-
+© 2020 International Bank for Reconstruction and Development / The World Bank
+1818 H Street NW
+Washington DC 20433
+Telephone: 202-473-1000
+Internet: www.worldbank.org
+This work is a product of the staff of The World Bank with external contributions. The findings, interpretations, and conclusions
+expressed in this work do not necessarily reflect the views of The World Bank, its Board of Executive Directors, or the
+governments they represent.
+The World Bank does not guarantee the accuracy, completeness, or currency of the data included in this work and does not
+assume responsibility for any errors, omissions, or discrepancies in the information, or liability with respect to the use of or
+failure to use the information, methods, processes, or conclusions set forth. The boundaries, colors, denominations, and other
+information shown on any map in this work do not imply any judgment on the part of The World Bank concerning the legal
+status of any territory or the endorsement or acceptance of such boundaries.
+Nothing herein shall constitute or be construed or considered to be a limitation upon or waiver of the privileges and immunities
+of The World Bank, all of which are specifically reserved.
+Rights and Permissions
+The material in this work is subject to copyright. Because The World Bank encourages dissemination of its knowledge, this
+work may be reproduced, in whole or in part, for noncommercial purposes as long as full attribution to this work is given.
+Any queries on rights and licenses, including subsidiary rights, should be addressed to World Bank Publications, The World
+Bank Group, 1818 H Street NW, Washington, DC 20433, USA; fax: 202-522-2625; e-mail: pubrights@worldbank.org.
+Cover photos used with the permission of ShutterStock.com.
+Publication design and layout by The Word Express, Inc.
+TABLE OF CONTENTS
+Abbreviations and Acronyms . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . v
+Preface  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . vii
+Executive Summary  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . ix
+‫چکیده مدیریتی‬       . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . xiii
+1.  Recent Economic and Policy Developments . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 1
+Introduction . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 1
+Output and Demand . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .2
+External Sector  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 5
+Monetary Policy and Prices . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 7
+Public Sector Finance  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 8
+Labor Market and Jobs  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 10
+2.  Outlook and Risks . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 15
+Outlook  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 15
+Risks and Opportunities  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 16
+Special Focus: Welfare Impacts of Inflation and the COVID-19 0utbreak in Iran  . . . . . . . . . . . . . .  19
+Introduction . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 19
+Recent Poverty and Inequality Trends in Iran . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .20
+The Impact of COVID-19 and Inflation on Household Welfare and Poverty . . . . . . . . . . . . . . . . . . . . . . . . . . . . 21
+References . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .26
+iii
+List of Figures
+Figure 1	       Confirmed COVID-19 Cases have Risen Sharply Since Sep-2020… . . . . . . . . . . . . . . . . . . . . . . . . 2
+Figure 2	…while Policy Reponse was Initially Less Stringent than MENA Average . . . . . . . . . . . . . . . . . . . .2
+Figure 3	GDP Contraction Continued, Albeit at a Slower Pace in Q1 2020/21… . . . . . . . . . . . . . . . . . . . . . 3
+Figure 4	…Amplifying Economic Divergence from Regional and Income-Group Benchmarks . . . . . . . . . .3
+Figure 5	      COVID-19 and Sanctions Hit Oil and Services Hard… . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 3
+Figure 6	…while Investment and Consumption Continued to Decline . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .3
+Figure B1.1	Supply-Side GDP Components (Q1-20/21) . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .4
+Figure B1.2	Demand-Side GDP Components (Q1-20/21) . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 4
+Figure B1.3	   Q2 2020 GDP Contraction in Iran was Significantly Smaller than Most other Countries . . . . . . .4
+Figure 7	      The CAB Registered a Deficit, Despite Much Lower Imports… . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 6
+Figure 8	      … as Oil Export Revenues Tumbled  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 6
+Figure 9	Non-Oil Exports Fell Sharply and Concentrated on Closer Neighbors… . . . . . . . . . . . . . . . . . . . . . 6
+Figure 10	…while Origin of Imports Remained Unchanged  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 6
+Figure 11	The Rial has Depreciated Sharply…  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 7
+Figure 12	… Leading to a Renewed Surge in Inflation . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 7
+Figure 13	     Lockdowns and Restrictions Have Increased Prices of Health and Education Services . . . . . . .8
+Figure 14	Monetary Policy Has Boosted Credit to Private Sector and Money Supply  . . . . . . . . . . . . . . . . . . 8
+Figure 15	Large Liquidity Inflows Led TSE to Undergo a Rapid Boom and Bust in 2020 . . . . . . . . . . . . . . . 9
+Figure 16	Oil Revenues Have Fallen to Historic Lows While Taxes Grew Modestly…  . . . . . . . . . . . . . . . . . . 9
+Figure 17	…Leading to a Widening Fiscal Deficit  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 9
+Figure 18	Labor Market Gender Gaps Remain High (Q2-20/21) . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .11
+Figure 19	      Headcount Poverty Rates (consumption per capita) at USD 5.5 2011 PPP National and
+by Rural/Urban Areas, 2016/17–2018/19 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .21
+Figure 20	      Gini Index (consumption per capita) National and by Rural/Urban Areas,
+2016/17–2018/19 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 21
+Figure 21	     National CPI by Type of Goods and Services (% change y-o-y) . . . . . . . . . . . . . . . . . . . . . . . . . . . 21
+Figure 22	      Expenditure Shares by Type of Goods and Services (%) . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .22
+Figure 23	Group-Specific Price Index . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .23
+Figure 24	Income Reduction Across Consumption Per Capita Deciles . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 25
+Figure 25	Simulated Poverty Impacts. Headcount Poverty Rates at USD 5.5 2011 PPP . . . . . . . . . . . . . . . 25
+List of Tables
+Table 1	       GoI Proposed an Expansionary Budget for 2020/21  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 11
+Table 2	       Iran: Selected Economic and Financial Indicators, 2017/18–2022/23 . . . . . . . . . . . . . . . . . . . . .17
+Table 3	      Parameters by Type of Income and Economic Sector of Occupation . . . . . . . . . . . . . . . . . . . . . .24
+Table 4	COVID-19 Social Assistance Response Scenarios . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .25
+List of Boxes
+Box 1	        GDP Growth under COVID-19, First Observations . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 4
+Box 2	        GoI COVID-19 Social Protection Measures  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 12
+Box 3	        The Human Capital Index in Iran . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .13
+iv   IRAN ECONOMIC MONITOR – WEATHERING THE TRIPLE-SHOCK
+ABBREVIATIONS AND
+ACRONYMS
+Bbl	      Barrel of oil                             MENA	   Middle-East and North Africa
+CAB	      Current account balance                   MoCLSW	 (Iran’s) Ministry of Cooperatives, Labor
+CBI	      Central Bank of Iran                              and Social Welfare
+COVID-19	 Corona Virus Disease 2019 (Novel          m-o-m	Month-on-month
+Coronavirus)                              NDFI	   National Development Fund of Iran
+CPI	      Consumer price inflation; Consumer        NIMA	   Unified system of foreign exchange
+price index (Special Focus chapter)               transactions (Persian acronym)
+ER	       Exchange rate                             OPEC	   Organization of petroleum exporting
+EMDE	     Emerging Market and Developing                    countries
+Economies                                 PBO	    Plan and Budget Organization
+FDI	      Foreign direct investment                 pp 	    Percentage point(s)
+GDP	      Gross domestic product                    PPP	    Purchasing Power Parity
+GoI	      Government of Iran                        RHS	Right-hand-side
+HCI	      Huma Capital Index                        SCI	    Statistical Centre of Iran
+HIES	     Household Income and Expenditure          SME	    Small and medium-sized enterprise
+Survey                                    SOE	    State-owned enterprise
+IEM	      Iran Economic Monitor                     TEDPIX	 Tehran Stock Exchange main index
+IPO	      Initial public offering                   TSE	    Tehran Stock Exchange
+IMF	      International Monetary Fund               UMC	    Upper middle-income countries
+IMF DOTS	 International Monetary Fund’s Direction   US(A)	  United States of America
+of Trade Statistics database              USD	    United States Dollar
+IRR	      Iranian Rial                              WB WDI	 World Bank World Development
+LHS	Left-hand-side                                          Indicators database
+mbpd	     Million barrels per day                   y-o-y	Year-on-year
+v
+PREFACE
+T
+he Iran Economic Monitor (IEM) provides           Jha (Regional Director). The Special Focus Section
+an update on key economic developments            on poverty was written by Laura Rodriguez Takeuchi
+and policies. It examines these economic          (Young Professional, Poverty) and under the guidance
+developments and policies in a longer-term and global      of Johannes Hoogeveen (Global Practice Manager).
+context, and assesses their implications for the outlook          Muna Abeid Salim (Senior Program Assistant)
+for the country. Its coverage has ranged from the macro-   print-produced the report.
+economy to financial markets to indicators of human               The findings, interpretations, and conclusions
+welfare and development. It is intended for a wide         expressed in this Monitor are those of World Bank
+audience, including policy makers, business leaders,       staff and do not necessarily reflect the views of the
+financial market participants, and the community of        Executive Board of the World Bank or the governments
+analysts and professionals engaged on Iran.                they represent.
+The Iran Economic Monitor is a product of the             For questions and comments on the content
+World Bank’s Global Practice for Macroeconomics,           of this publication, please contact Majid Kazemi
+Trade and Investment team. The seventh issue of the        (mkazemi@worldbank.org) or Eric Le Borgne
+IEM was prepared by Majid Kazemi (Economist, Task          (eleborgne@worldbank.org).
+Team Leader) under the general guidance of Eric Le                (The data cut-off date for this report was
+Borgne (Global Practice Manager) and Saroj Kumar           December 3, 2020.)
+vii
+EXECUTIVE SUMMARY
+T
+he Iranian economy entered a third                for safer assets, leading the rial to lose 43 percent of
+consecutive year of recession following           its value against the dollar year-on-year (YoY). Iran’s
+the triple-shock of sanctions, oil market         ability to buttress the exchange rate pressures was
+collapse and COVID-19. Gross Domestic Product              hampered by limited reserves and restricted access to
+(GDP) contracted by 6.8 percent in the Iranian             exports proceeds abroad. The currency depreciation
+calendar year 2019/201 as a result of expiration of US     impacted consumers as imported goods became
+sanctions waivers on Iran’s oil exports. The spread of     more expensive and domestic production prices,
+COVID-19 and the subsequent collapse in oil markets        especially for tradable goods, increased. Consumer
+also impacted the last quarter of the year’s GDP           price inflation reached 30.6 percent (YoY) during
+(ending March 2020) as oil production reached a            Apr–Nov 2020 and climbed to a 16-month high of
+three-decade low of 2 mbpd (million barrels per day).      46.4 percent (YoY) in November 2020. Similar to
+Despite the expansion of US sanctions to other key         2019/20, inflation was led by sharp price increases
+industries, non-oil GDP grew by 1.1 percent in 2019/20     in food and housing which disproportionately affect
+driven by agriculture and manufacturing sectors.           lower income deciles.
+Price competitiveness of products in these sectors                 The decline in revenues led the Government
+increased following the currency depreciation. On the      of Iran (GoI) to meet its financing needs through
+demand side, GDP contraction was broad-based as            extensive debt issuance and sales of assets on
+all sectors contracted. GDP shrank at a slower annual      the stock market. The fiscal deficit-to-GDP ratio is
+rate (2.8 percent) in the first quarter of 2020/21 (Apr-   estimated to have more than doubled to 3.7 percent
+Jun 2020) as COVID-19 health measures were limited         in 2019/20 as oil revenues halved and their share in
+and were relaxed in mid-April. The recent weak growth      budget revenues fell to a historic low. Oil revenues
+performance adds to a decade-long stagnation.              deteriorated further in 2020/21 following the global oil
+During 2010/11–2019/20 GDP grew at an annualized           market collapse leading to only a fraction of budgeted
+rate of –0.1 percent and Iran’s per capita GDP fell        oil revenues (6 percent) in Apr–Jul 2020 being
+below regional and income group averages.                  realized. Tax revenues performed better in part due
+High inflation placed additional economic
+stress on lower income households following
+a sharp depreciation of the currency. In Apr-Nov           1
+The Iranian calendar year starts on March 21 of the
+2020, inflationary expectations and geopolitical and            Gregorian calendar year and ends on March 20 the
+economic uncertainties sharply increased demand                 following year.
+ix
+to improved collection and price effects. Expenditures      prior to the pandemic. Oil production is projected
+grew faster in 2020/21 due to wage bill and pension         to remain close to the first quarter level of 2 mbpd.
+payment adjustments as well as new transfers to             Overall economic contraction is projected to increase
+households to counter the negative impact of high           in the second half of 2020/21 (Oct 2020–Mar
+inflation and recession. This limited fiscal space led      2021) as stricter health measures are enforced due
+the government to heavily rely on bond issuance             to a resurgence of cases in the colder season. In the
+and sales of assets in the stock exchange as well           absence of a vaccine widely adopted in the country
+as withdrawals from the sovereign wealth fund for           until end-2021, recovery in 2021–2022 is projected to
+emergency expenditures.                                     be weak and be primarily driven by the non-oil sector.
+Multiple years of recession and high                        Fiscal pressures are forecast to increase
+inflation have strained household livelihoods and           due to lower revenue growth and higher financing
+stalled poverty reduction. In 2018/19, the national         costs. Government revenues are projected to
+poverty rate measured at the international poverty line     reach a trough in 2020/21 as economic activity
+of USD 5.5 purchasing power parity (PPP) was 12.3           contracts before improving in the outer years with
+percent, up 1.5 percentage points from the previous         the moderate economic recovery and gradual
+year. Inequality (measured by the Gini index) was           pick up in oil revenues. COVID-19 healthcare cost
+35.6 points and continued to increase after 2016/17.        and social assistance transfers are forecast to add
+Rising living costs eroded the value of cash transfers      to government expenditure growth which will be
+and labor incomes in real terms. Poverty mitigation         dominated by subsidies and labor compensation in
+measures including cash transfers helped partly             2020/21 and beyond. Extensive bond issuance in
+mitigate pressures on the poor but also placed              2020/21 is forecast to continue and higher interest
+additional pressure on fiscal balances due to lack of       payment is projected to lead to a growing overall fiscal
+adequate targeting.                                         deficit in the medium term while the primary fiscal
+As COVID-19 cases surged, stricter                  deficit-to-GDP ratio marginally improves.
+measures were enforced in Fall 2020 and new                         The Special Focus chapter of this report
+social transfers were announced. In November                presents recent poverty figures and assesses
+2020, stricter health containment measures were             the welfare and poverty impacts of the COVID-19
+introduced after Iran registered over 1 million             pandemic in Iran. A microsimulation analysis based
+COVID-19 cases and the death toll climbed above             on shock scenarios included in the Special Focus
+49,000 deaths.2 The economic shock of the COVID-19          chapter shows that poverty could substantially
+pandemic pushed more households into poverty. In            increase, by up to 21 percentage points, as a
+response, the authorities unveiled new rounds of cash       combined result of the fall in household incomes
+transfers and consumption loans for lower income            and high inflation through the pandemic. Iranians in
+deciles and households without a permanent source           the bottom half of the welfare distribution, working
+of income.                                                  in services and high-contact economic sectors, and
+Iran’s economic outlook remains highly              those in rural areas are disproportionately affected.
+uncertain, especially given the COVID-19                            Risks to Iran’s economic outlook relate
+evolution and the continuation of US sanctions.             to the evolution of the COVID-19 pandemic and
+Iran’s GDP in 2020/21 is estimated to contract by 3.7       geopolitical developments. The economic outlook
+percent due to a dual contraction of the non-oil and oil    is subject to significant risks if large resurgences
+sectors. The projected contraction remains moderate         of COVID-19 outbreak force stringent lockdown
+compared to other countries due to a shorter initial        measures or a reliable vaccine is not widely distributed
+period of domestic containment measures and                 in 2021. Higher government reliance on debt issuance
+neighbor countries move to more growth focused
+mitigation strategies. It also reflects the fact that the
+economy was already operating well below capacity           2
+As of December 3, 2020.
+x   IRAN ECONOMIC MONITOR – WEATHERING THE TRIPLE-SHOCK
+and stock market sales of assets increase financial       strategies. Multiple years of recession has severely
+contagion risks and could place additional stress         undermined the welfare of the Iranians and put
+on the undercapitalized banking sector. External          unprecedented strain on the most vulnerable which
+balances could worsen if further trade restrictions are   raises the urgency of reforms. Mitigation measures
+imposed or demand in China and other main export          have partly offset these pressures in the past but
+partners do not recover in the medium term. Upside        remain insufficient due to lack of accurate targeting
+risks to Iran’s economic prospects include a stronger     mechanisms and fiscal constraints. The newly piloted
+recovery in the oil market. The lifting of US sanctions   Welfare Information Platform of Iranians could be a
+would have a large positive impact, as it did following   crucial tool in the implementation of future interventions
+the Joint Comprehensive Plan of Action (JCPOA) in         and social protection strategies. Cash transfers alone
+2015. With the economy operating at a lower base          would be insufficient to protect the most vulnerable
+and below potential output, recovery in the outer         if high inflation continues to reduce the real value
+years could be stronger.                                  of distributed cash transfers. The sustainability of
+The scope of challenges facing Iran’s             such measures and overall economic recovery will
+economy raises the urgency of implementing                ultimately depend on a package of deeper economic
+deeper economic reforms complemented with                 reforms that addresses the economy’s structural
+more targeted social protection mitigation                challenges.
+Executive Summary      xi
+‫چکیده مدیریتی‬
+‫یافت‪ .‬تورم قیمت مرصف‌کننده در بازه فروردین تا آذر ‪ 1399‬نسبت‬            ‫اقتصاد ایران به‌دلیل شوک ناشی از سه عامل تحریم‌ها‪ ،‬بحران در‬
+‫به‌مدت مشابه سال قبل به ‪ 30/6‬درصد رسید و در آذر ‪ 1399‬به باالترین‬       ‫بازار نفت و کووید‪ 19-‬وارد سومین سال پیاپی رکود اقتصادی شده‬
+‫مقدار در ‪ 16‬ماه گذشته (‪ 46/4‬درصد) رسید‪ .‬مشابه سال ‪ ،1398‬بخش‬            ‫است‪ .‬تولید ناخالص داخلی ایران در سال ‪ 1398‬به دلیل پایان یافنت‬
+‫بزرگی از تورم ناشی از افزایش قیمت مواد غذایی و همچنین اجاره‬            ‫معافیت‌های تحریم آمریکا بر صادرات نفت این کشور‪ ،‬به میزان ‪6/8‬‬
+‫مسکن می‌باشد که در نتیجه فشار تورم به‌صورت نامتناسب توزیع شده‬          ‫درصد کاهش یافته است‪ .‬شیوع کووید‪ 19-‬و بحران متعاقب آن در بازار‬
+‫و بیشرت بر دهک‌های درآمدی پایین وارد می‌شود‪.‬‬      ‫نفت نیز بر تولید ناخالص داخلی در سه ماهه آخر سال تأثیر گذاشت‪،‬‬
+‫چرا که تولید نفت ایران در این مدت به کمرتین مقدار در سه دهه‬
+‫کاهش درآمدها منجر به این شده است که دولت ایران نیازهای مالی خود‬        ‫اخیر یعنی ‪ 2‬میلیون بشکه در روز رسید‪ .‬در سال ‪ 1398‬علیرغم اعامل‬
+‫را از طریق انتشار گسرتده اوراق قرضه و فروش دارایی‌ها در بازار بورس‬     ‫تحریم‌های ایاالت متحده بر دیگر صنایع کلیدی‪ ،‬تولید ناخالص داخلی‬
+‫تأمین کند‪ .‬درآمدهای نفتی ایران نصف شده و سهم آن‌ها در درآمدهای‬         ‫بدون نفت‪ ،‬در اثر رشد بخش‌های کشاورزی و تولید‪ ،‬به میزان ‪ 1/1‬درصد‬
+‫بودجه به کمرتین مقدار خود در تاریخ بودجه‌بندی ایران رسیده است‪ ،‬که‬      ‫رشد یافت‪ .‬توانایی رقابت تولیدات این بخش‌ها به‌دلیل کاهش ارزش پول‬
+‫در نتیجه آن نسبت کرسی بودجه به تولید ناخالص داخلی در سال ‪1398‬‬          ‫ملی افزایش یافت‪ .‬در سمت تقاضا‪ ،‬به دلیل رشد منفی متامی بخش‌ها‪،‬‬
+‫برآورد می‌شود که بیش از دو برابر شده و به ‪ 3/7‬درصد رسیده است‪ .‬با‬       ‫انقباض تولید ناخالص داخلی افزایش یافت‪ .‬با کاهش محدودیت‌های‬
+‫بروز بحران در بازار نفت در سال ‪ 1399‬درآمدهای نفتی بیشرت کاهش‬           ‫اعاملی ناشی از کووید‪ ،19-‬و همچنین پایدار شدن وضعیت بیامری در‬
+‫یافت و در نتیجه آن در بازه فروردین تا تیر ‪ 1399‬تنها بخشی از درآمدهای‬   ‫اوایل اردیبهشت‪ ،‬رسعت کاهش تولید ناخالص داخلی در فصل بهار سال‬
+‫نفتی بودجه (‪ 6‬درصد) محقق شد‪ .‬درآمدهای مالیاتی به دلیل جمع‌آوری‬         ‫‪( 1399‬فروردین تا خرداد ‪ )1399‬کمرت شد (‪ 2/8‬درصد)‪ .‬رشد ضعیف‬
+‫مالیات بهرت و همچنین افزایش قیمت‌ها‪ ،‬افزایش یافت‪ .‬به‌دلیل افزایش‬       ‫اخیر به رکود بلندمدت یک دهه گذشته اضافه شده است‪ .‬در طول بازه‬
+‫حقوق و دستمزد و مستمری بازنشستگی و همچنین کمک‌‌های معیشتی‬              ‫زمانی ‪ ،1388 –1398‬مقدار رشد تولید ناخالص داخلی به‌صورت میانگین‬
+‫جدید پرداختی به خانوارها برای مقابله با اثرات منفی تورم باال و رکود‪،‬‬   ‫ساالنه ‪ –0/1‬درصد بوده و رسانه تولید ناخالص داخلی و درآمد ایران به‬
+‫رسعت رشد هزینه‌ها در سال ‪ 1399‬بیشرت شده است‪ .‬محدودیت‌های‬                                           ‫زیر میانگین منطقه‌ای سقوط کرده است‪.‬‬
+‫شدید مالی منجر به این شده است که دولت به انتشار مقادیر زیادی‬
+‫اوراق قرضه و فروش دارایی‌ها در بازار بورس و همچنین برداشت از‬           ‫تورم باال در اثر کاهش شدید ارزش پول ملی موجب وارد آمدن فشار‬
+‫صندوق ذخیره ارزی برای هزینه‌های اضطراری اقدام کند‪.‬‬      ‫اقتصادی مضاعف بر خانوارهای کم‌درآمد شده است‪ .‬در بازه زمانی‬
+‫فروردین تا آذر ‪ 1399‬انتظارات تورمی و بالتکلیفی اقتصادی و ژئوپلتیکی‬
+‫سال‌های متامدی رکود و تورم باال معیشت خانوار و توقف کاهش فقر‬           ‫منجر به افزایش شدید تقاضا برای دارایی‌های امن شد که در نتیجه آن‬
+‫را با تنگنا مواجه کرده است‪ .‬در سال ‪ 1397‬نرخ فقر در سطح کشور‬            ‫ارزش ریال در برابر دالر نسبت به مدت مشابه سال قبل ‪ 43‬درصد کاهش‬
+‫با توجه به خط فقر جهانی که معادل برابری قدرت خرید با ‪ 5/5‬دالر‬          ‫یافت‪ .‬توانایی ایران برای مقابله با فشار کاهش ارزش مبادله‌ای پول ملی‬
+‫ایاالت متحده‪ ،‬می‌باشد ‪ 12/3‬درصد بود که ‪ 1/5‬درصد بیشرت از سال‬           ‫به‌دلیل محدودیت منابع و محدودیت دسرتسی به درآمدهای صادراتی‪،‬‬
+‫قبل آن بود‪ .‬نابرابری (برحسب رضیب جینی) برابر با ‪ 35/6‬بود و مقدار‬       ‫کاهش یافت‪ .‬کاهش ارزش پول ملی موجب افزایش هرچه بیشرت قیمت‬
+‫آن پس از سال ‪ 1395‬همواره افزایشی بوده است‪ .‬افزایش هزینه‌های‬            ‫کاالهای وارداتی و همچنین کاالهای تولید داخلی به‌خصوص تولیدات‬
+‫زندگی موجب کاهش اثر پول نقدی توزیع شده و همچنین درآمدهای‬               ‫داخلی قابل تجارت شد‪ ،‬و در نتیجه فشار به مرصف‌کنندگان افزایش‬
+‫‪xiii‬‬
+‫و انتظار می‌رود که پرداخت سود بیشرت به کرسی هر چه بیشرت بودجه‬          ‫بخش کارگری شده است‪ .‬اقدامات برای کاهش فقر مانند توزیع پول‬
+‫در میان‌مدت بیانجامد و نسبت کرسی بودجه به تولید ناخالص داخلی‬           ‫نقدی موجب کاهش فشار فقر بر قرش ضعیف شده است ولی در مقابل‬
+‫به‌مقدار اندکی افزایش یابد‪.‬‬        ‫به دلیل نبود هدف‌مندی کافی موجب وارد آمدن فشار مضاعف به تراز‬
+‫مالی دولت شده است‪.‬‬
+‫فصل ویژه این گزارش آمار جدید در مورد فقر و ارزیابی اثرات‬
+‫همه‌گیری کووید‪ 19-‬بر سطح رفاه و فقر در ایران پرداخته است‪ .‬یک‬           ‫با موج جدید موارد ابتال به کووید‪ ،19-‬محدودیت‌های شدیدتر در‬
+‫تحلیل شبیه‌سازی خُرد برمبنای سناریوهای شوک که در فصل ویژه‬              ‫پاییز ‪ 1399‬اعامل شده و اقدامات کنرتلی اجتامعی جدید اعالم شد‪.‬‬
+‫آورده شده‌ است‪ ،‬نشان می‌دهد که در اثر کاهش همزمان درآمد‬                ‫پس از اعالم گذر ایران از ‪ 1‬میلیون مورد کووید‪ 19-‬مثبت تأیید شده و‬
+‫خانوار و تورم باال در طول دوره همه‌گیری‪ ،‬فقر می‌تواند به‌میزان قابل‬    ‫همچنین گذر موارد مرگ و میر ناشی از این بیامری از عدد ‪،349،000‬‬
+‫توجهی تا ‪ 21‬درصد افزایش یابد‪ .‬ایرانیانی که در نیمه پایین سطح رفاه‬      ‫در آذر ‪ ،1399‬اتخاذ اقدامات کنرتلی شدید‌تری اعالم شد‪ .‬شوک اقتصادی‬
+‫قرار دارند‪ ،‬و غالباً در بخش خدمات و بخش‌های اقتصادی پرمتاس کار‬         ‫ناشی از همه‌گیری کووید‪ 19-‬موجب فقیر شدن خانوارهای بیشرتی‬
+‫می‌کنند‪ ،‬و آن‌هایی که در مناطق روستایی زندگی می‌کنند به میزان‬          ‫شد‪ .‬در مقابل‪ ،‬مسئولین توزیع بسته جدید کمک‌های معیشتی و وام‬
+‫نامتناسبی تأثیر می‌پذیرند‪.‬‬   ‫را برای دهک‌های با درآمد کمرت و خانواده‌های بدون منبع درآمد دامئی‬
+‫اعالم منودند‪.‬‬
+‫ریسک‌هایی که چشم‌انداز اقتصادی ایران را تهدید می‌کنند مربوط به‬
+‫گسرتش بیامری کووید‪ 19-‬و همچنین تغییرات ژئوپلتیکی می‌باشد‪ .‬در‬           ‫چشم‌انداز اقتصادی ایران به‌خصوص با مهار نشدن کووید‪ 19-‬و ادامه‬
+‫صورتی که موج جدید کووید‪ 19-‬به اتخاذ تصمیامت تعطیلی سخت‌گیرانه‬           ‫تحریم‌های ایاالت متحده به‌شدت نامشخص است‪ .‬پیش‌بینی ‌می‌شود‬
+‫بیانجامد و یا واکسن قابل اعتامدی در سال ‪ 1400‬توزیع نشود‪ ،‬چشم‌انداز‬     ‫که به دلیل رشد منفی هر دو بخش‌ نفت و غیرنفتی تولید ناخالص‬
+‫اقتصادی ایران در معرض ریسک قابل توجهی خواهد بود‪ .‬تکیه هرچه‬             ‫داخلی ایران در سال ‪ 3/7 ،1399‬درصد کاهش یابد‪ .‬به دلیل مدت زمان‌‬
+‫بیشرت حکومت بر انتشار اوراق قرضه و فروش دارایی‌ها در بازار سهام‬         ‫کوتاه‌تر اقدامات مهار داخلی اتخاذ شده‪ ،‬رشد منفی پیش‌بینی شده‬
+‫خطر ترسی مشکالت اقتصادی را افزایش داده و می‌تواند موجب وارد‬             ‫در مقایسه با دیگر کشورها در حد مالیم باقی می‌ماند و کشورهای‬
+‫شدن فشار هرچه بیشرت به بخش بانکی شود که در حال حارض با مشکل‬             ‫همسایه به سمت اسرتاتژی های کاهش بیامری با مترکز بر رشد حرکت‬
+‫کمبود رسمایه روبرو است‪ .‬اگر محدودیت‌های تجاری بیشرتی اعامل شود‬          ‫می‌کنند‪ .‬این پیش‌بینی همچنین ناشی از این حقیقت است که اقتصاد‬
+‫و تقاضای چین و دیگر رشکای صادراتی اصلی در میان‌مدت به سطح قبلی‬          ‫در حال حارض به‌میزان قابل توجهی پایین‌تر از ظرفیت آن قبل از‬
+‫برنگردد‪ ،‬تعادل اقتصادی خارجی می‌تواند بدتر هم بشود‪ .‬بهبود بیشرت در‬      ‫همه‌گیری کرونا کار می‌کند‪ .‬پیش‌بینی می‌شود که مقدار تولید نفت در‬
+‫بازار نفت نیز به‌عنوان یک فرصت و ریسک مطلوب برای اقتصاد ایران‬           ‫سطح سه‌ماهه اول سال به میزان ‪ 2‬میلیون بشکه در روز باقی مباند‪.‬‬
+‫می‌باشد‪ .‬برداشته شدن تحریم‌های ایاالت متحده می‌تواند اثرات مثبت‬         ‫پیش‌بینی می‌شود که با شدید‌تر شدن محدودیت‌های ناشی از موج‬
+‫قابل توجهی بر اقتصاد ایران‪ ،‬مشابه زمان تصویب برنامه جامع اقدام‬          ‫جدید کرونا در فصل‌های رسد سال‪ ،‬رشد منفی اقتصادی در نیمه دوم‬
+‫مشرتک (برجام) در سال ‪ 1394‬داشته باشد‪ .‬از آن‌جایی که اقتصاد در حال‬       ‫سال ‪ 1399‬بیشرت شود‪ .‬در صورت عدم توزیع گسرتده واکسن در کشور‬
+‫کار در سطحی پایین‌تر از میزان بالقوه خود می‌باشد‪ ،‬بهبود اقتصادی در‬      ‫تا انتهای سال ‪ 2021‬میالدی (آذر ‪ ،)1400‬پیش‌بینی می‌شود که بهبود‬
+‫سال‌های پیش رو می‌تواند با قوت بیشرتی روی دهد‪.‬‬        ‫اقتصادی در سال ‪ 1400‬ضعیف بوده و بار آن در درجه اول بر دوش‬
+‫بخش غیرنفتی باشد‪.‬‬
+‫دامنه چالش های پیش روی اقتصاد ایران ‪ ،‬فوریت اجرای اصالحات‬
+‫اقتصادی عمیق تر همراه با اسرتاتژی های هدفمندسازی یارانه‌ها و‬           ‫انتظار می‌رود که به‌دلیل افزایش هزینه‌ها و رشد کمرت درآمدها‪ ،‬فشار‬
+‫حامیت‌های اجتامعی را بیشرت می‌کند‪ .‬رکود اقتصادی عمیقی که در‬            ‫اقتصادی افزایش یابد‪ .‬پیش‌بینی می‌شود که درآمدهای دولت در سال‬
+‫سال‌های متامدی ادامه داشته است سطح رفاه در جامعه ایران را به‌شدت‬       ‫‪ 1399‬در مقدار کمینه خود قرار گیرد چرا که فعالیت‌های اقتصادی قبل‬
+‫پایین آورده و فشار بی‌سابقه‌ای را بر قرشهای آسیب‌پذیر وارد کرده است‬    ‫از بهبود رشایط در سال‌های پیش‌رو حالت انقباضی به خود گرفته‌اند‬
+‫که این مسئله فوریت اجرای اصالحات را برجسته‌تر می‌کند‪ .‬اقدامات‬          ‫و از طرف دیگر رسعت بهبود اقتصادی متوسط بوده و بازگشت‬
+‫حامیتی تا حدی این فشار را در سال‌های گذشته خنثی کرده است ولی‬           ‫درآمدهای نفتی تدریجی و با رسعتی پایین می‌باشد‪ .‬پیش‌بینی می‌شود‬
+‫به‌دلیل نبود اسرتاتژی‌های هدفمندسازی و محدودیت‌های مالی‪ ،‬ناکافی‬        ‫که هزینه‌های مراقبت‌های بهداشتی مربوط به کووید‪ 19-‬و کمک‌های‬
+‫بوده است‪ .‬پایگاه داده ایرانیان که به‌تازگی به‌صورت آزمایشی اجرایی‬      ‫معیشتی اجتامعی منجر به افزایش رسعت رشد هزینه‌های دولت شوند‪.‬‬
+‫شده است می‌تواند ابزاری حیاتی در اجرای طرح‌های آینده و راهربدهای‬       ‫یشرتین بخش این هزینه‌ها مربوط به یارانه‌ها و پرداختی‌ها به کارگران‬
+‫حامیت اجتامعی باشد‪ .‬چنانچه تورم باال و در نتیجه کاهش ارزش یارانه‬       ‫بیکار شده می‌باشد که در سال ‪ 1399‬و پس از آن ادامه خواهد یافت‪.‬‬
+‫نقدی توزیع شده ادامه یابد‪ ،‬توزیع این یارانه‌ها به تنهایی برای حامیت‬    ‫پیش‌بینی می شود انتشار گسرتده اوراق قرضه در سال ‪ 1399‬ادامه یابد‬
+‫از طبقه آسیب‌پذیر کافی نخواهد بود‪ .‬پایداری این اقدامات و بهبود‬
+‫کلی اقتصاد در نهایت به اجرای بسته‌ای از اقدامات اصالحات عمیق‌تر‬
+‫اقتصادی برای رفع چالش‌های ساختاری اقتصاد وابسته خواهد بود‪.‬‬                                                  ‫‪3‬تا تاریخ ‪ 13‬آذر ‪	.1399‬‬   ‫	‬
+‫‪3‬‬
+‫‪xiv‬‬   ‫‪IRAN ECONOMIC MONITOR – WEATHERING THE TRIPLE-SHOCK‬‬
+1
+RECENT ECONOMIC AND
+POLICY DEVELOPMENTS
+Introduction                                                 The decline in oil exports increased pressures on
+government revenues and the response to the
+Iran’s economy stagnated over the last decade,               pandemic’s health and economic crisis. Even before
+a legacy of economic sanctions and high                      the pandemic, large subsidy expenditures, wage bill
+dependence on the oil sector. Iran’s economy                 and pensions expenditures restricted implementation
+underwent a lost decade (2010/11 to 2019/20).4 Gross         of counter-cyclical fiscal policy. Recent progress in
+Domestic Product (GDP) grew at an annualized rate of         tax effort and debt issuance have helped contain
+-0.1 percent and key opportunities such as record high       the deficit and meet financing needs, respectively.
+oil prices were missed. Economic activity in this period     However, the increasing reliance on bond issuance
+was volatile as the economy experienced various stages       and asset sales in the stock market has increased
+of economic sanctions and oil price cycles. This high        exposures of these markets to government financing
+economic volatility has led to a less favorable investment   operations. The large public sector has also
+climate and heightened inflationary expectations. While      marginalized the private sector leading to inadequate
+Iran’s economic base is relatively diversified for an oil    job creation and undermined economic activation of
+exporting country, non-oil sector growth remained slow       the country’s young population.
+and was also shaped by both oil sector developments                 A new wave in COVID-19 cases led to the
+and economic sanctions. The marginalization of the           introduction of stricter measures in Fall 2020 and
+private sector has also led to inadequate job creation       a new rescue package for the most vulnerable
+and undermined economic participation, especially for        households were announced. After the first
+youth and women. The country’s strong economic base          COVID-19 cases were confirmed in February 2020, the
+thanks to a high human capital wealth (a large young         spread has intensified and claimed over 49,000 lives
+educated population; see, Box 2) and ample natural           and over 1 million people contracted the virus as of
+resources (e.g., hydrocarbon, mineral and strategic
+geographic location) present vast potential for growth.
+The global Coronavirus 2019 (COVID-19)               4
+The Iranian calendar year starts on March 21 of the
+pandemic and US sanctions amplified existing                      Gregorian calendar year and ends on March 20 the
+economic challenges since February 2020.                          following year.
+1
+FIGURE 1 • Confirmed COVID-19 Cases have Risen Sharply Since Sep-2020…
+600                                                                                                                                                                                                                                                                                                                             16,000
+14,000
+Daily confirmed deaths
+500
+Cases per million &
+12,000
+new daily cases
+400                                                                                                                                                                                                                                                                                                                             10,000
+300                                                                                                                                                                                                                                                                                                                             8,000
+200                                                                                                                                                                                                                                                                                                                             6,000
+4,000
+100                                                                                                                                                                                                                                                                                                                             2,000
+0                                                                                                                                                                                                                                                                                                                          0
+2/19/2020
+3/4/2020
+3/18/2020
+4/1/2020
+4/15/2020
+4/29/2020
+5/13/2020
+5/27/2020
+6/10/2020
+6/24/2020
+7/8/2020
+7/22/2020
+8/5/2020
+8/19/2020
+9/2/2020
+9/16/2020
+9/30/2020
+10/14/2020
+10/28/2020
+11/11/2020
+11/25/2020
+New daily deaths (LHS)                                                        Cases per capita (RHS)                                              New daily cases (RHS)
+Source: Johns Hopkins CSSE.
+FIGURE 2 • …while Policy Reponse was Initially                                                                                                                                                                                            vulnerable (See Box 2 for a summary of GoI COVID-19
+Less Stringent than MENA Average                                                                                                                                                                                               economic relief measures). As the recent World Bank
+90                                                                                                                                                                                                         COVID-19 approach paper argues, health measures to
+Stringency Index (out of 100)
+80                                                                                                                                                                                                         save lives and livelihoods need to be at the heart of the
+70
+60                                                                                                                                                                                                         policy response to the pandemic around the world.5
+50
+40
+30
+20
+Output and Demand
+10
+0
+Over two years of economic recession, following
+2/19/2020
+3/10/2020
+3/30/2020
+4/19/2020
+5/9/2020
+5/29/2020
+6/18/2020
+7/8/2020
+7/28/2020
+8/17/2020
+9/6/2020
+9/26/2020
+10/16/2020
+11/5/2020
+the reintroduction of US sanctions, has taken a
+toll on Iran’s economy. Iran’s real GDP contracted
+Iran                            MENA                                                                                             by 6.8 percent in 2019/20 after US sanctions
+were reintroduced on the oil sector which lead
+Source: Coronavirus Government Response Tracker, University of Oxford and World                                                                                                                                                            oil sector value-added to shrink by 38.7 percent
+Bank staff calculations.
+(Figure 3). Despite the expansion of US sanctions to
+other key industries, non-oil GDP grew by 1.1 percent
+in 2019/20 driven by agriculture and manufacturing
+December 2, 2020 (Figure 1). Iran remains the country                                                                                                                                                                                      sectors as the exchange rate (ER) depreciation
+with the highest number of reported cases, accounting                                                                                                                                                                                      made domestic production more competitive. The
+for more than a quarter of cumulative confirmed                                                                                                                                                                                            non-oil sector rebound could have been larger in
+cases in Middle East and North Africa (MENA). Initial                                                                                                                                                                                      the absence of trade and financial transaction which
+health mitigation measures were relaxed in mid-April                                                                                                                                                                                       constrained production and commerce. The recent
+and remained less stringent than most other MENA                                                                                                                                                                                           economic contraction widens the gap between Iran
+countries facing even lower levels of spread (Figure 2).
+The surge in daily cases in November 2020 to more
+than double of the previous peak in July 2020 led
+to the introduction of stricter containment measures
+5
+Bank Group COVID-19 Crisis Response Approach
+paper, available at: http://documents1.worldbank.org/
+including overnight curfews. The Government of Iran
+curated/en/136631594937150795/pdf/World-Bank-
+(GoI) also announced additional cash transfers and                                                                                                                                                                                               Group-COVID-19-Crisis-Response-Approach-Paper-
+low interest consumption loans for the bottom deciles                                                                                                                                                                                            Saving-Lives-Scaling-up-Impact-and-Getting-Back-on-
+to mitigate the impact of these restrictions on the most                                                                                                                                                                                         Track.pdf.
+2   IRAN ECONOMIC MONITOR – WEATHERING THE TRIPLE-SHOCK
+GDP Contraction Continued, Albeit at
+FIGURE 3 •                                                                                                                                                      FIGURE 4 • …Amplifying Economic Divergence
+a Slower Pace in Q1 2020/21…                                                                                                                                      from Regional and Income-Group
+Benchmarks
+15                                                                                                                     80
+60
+Growth (y-o-y), percent
+10                                                                                                                                                                20,000
+40
+18,000
+GDP per capita, PPP
+5
+(International US$)
+20
+0                                                                                                                     0                                          16,000
+–20
+–5                                                                                                                                                                14,000
+–40
+–10                                                                                                                     –60                                        12,000
+2010/11
+2011/12
+2012/13
+2013/14
+2014/15
+2015/16
+2016/17
+2017/18
+2018/19
+2019/20
+Q1–2020/21
+10,000
+2010
+2011
+2012
+2013
+2014
+2015
+2016
+2017
+2018
+2019
+Non-oil GDP (LHS)                        GDP (LHS)                     Oil-GDP (RHS)                                                                               Iran                         Middle East & North Africa
+Upper middle income          World
+Source: CBI and World Bank staff calculations.
+Source: World Bank WDI.
+and its income and regional peers, a trend which has                                                                                                             growth impact in Iran within the global context). In
+deteriorated significantly since 2011 (Figure 4).                                                                                                                contrast to past recessions, services were much
+Domestic and international COVID-19                                                                                                                       more impacted; a reflection of the large impact that
+restrictions led to a contraction in Apr-Jun 2020,                                                                                                               COVID-19 has had on services sectors across the
+albeit a relatively modest one, partly reflecting                                                                                                                world. Higher government consumption expenditures
+the initial economic weakness. The GDP decline                                                                                                                   (1.2 percent y-o-y, real) also contributed to partially
+continued in the first quarter of 2020/21 (Q1-                                                                                                                   offset other sectors’ contraction in Q1-20/21.
+20/21) as COVID-19 border closures and containment                                                                                                                       The price competitiveness of tradable
+measures in March and April contributed to GDP                                                                                                                   sectors partly offset the overall negative
+contracting by 2.8 percent (y-o-y) (Figure 5). This                                                                                                              impact of the downturn in Q1-20/21. The overall
+limited impact primarily stems from the US sanctions                                                                                                             manufacturing production index grew by 1.5 percent
+that had already hit the economy and Iran’s limited                                                                                                              (y-o-y) in Apr-Jun 2020 despite lockdowns and trade
+economic integration with the rest of the world due to                                                                                                           restrictions. While the growth rate was markedly
+decades of sanctions (Box 1 looks at the COVID-19                                                                                                                lower than the previous quarter (10.5 percent, y-o-y,
+COVID-19 and Sanctions Hit Oil and
+FIGURE 5 •                                                                                                                                                      FIGURE 6 • …while Investment and Consumption
+Services Hard…                                                                                                                                                    Continued to Decline
+20                                                                                                                                                               30
+Contribution to y-o-y growth, pp
+Contribution to y-o-y growth, pp
+15                                                                                                                                                              20
+10                                                                                                                                                               10
+5                                                                                                                                                               0
+0
+–10
+–5
+–20
+–10
+–15                                                                                                                                                              –30
+Q1 Q3 Q1 Q3 Q1 Q3 Q1 Q3 Q1 Q3 Q1                                                                                                                                 Q1 Q3 Q1 Q3 Q1 Q3 Q1 Q3 Q1 Q3 Q1
+2015/16 2016/17 2017/18 2018/19 2019/20 2020/21                                                                                                                  2015/16 2016/17 2017/18 2018/19 2019/20 2020/21
+Private consumption         Gov. consumption         Investment
+Oil                        Agriculture                   Industries                                                                        Exports                     Imports                  Inventory & SD
+Services                   GDP                                                                                                             GDP
+Source: CBI and World Bank staff calculations.                                                                                                                   Source: CBI and World Bank staff calculations.
+Recent Economic and Policy Developments                                3
+BOX 1. GDP GROWTH UNDER COVID-19, FIRST OBSERVATIONS
+Iran’s GDP Growth in Q1 2020/21 (Apr–Jun 2020)                                          Supply-Side GDP Components
+FIGURE B1.1 • 
+Latest available CBI data for Iran’s GDP confirms that the COVID-19                     (Q1-20/21)
+crisis contributed to the economic contraction in Q1 2020/21                                                           3.7
+5                        2.5                                    1
+(Q1-20/21) by 2.8 percent. Figure B1.1 and Figure B1.2 show
+Contribution to growth, pp
+Growth y-o-y, percent
+that the recession was broad based. On the production side, the                                          0                                                               0
+–1.6     –0.6
+largest contributor to the contraction was the oil sector followed                                      –5                                                        –2.8
+by services. Part of the oil contraction reflects the carry-over effect                                                                                                  –1
+from the US sanction waivers which expired in April 2019. Services                                     –10
+contraction was significant as the sector had only started to recover                                  –15                                                               –2
+in the second half of 2019/20. However, industries (non-oil) and                                           –16.0
+–20                                                               –3
+agriculture production both grew despite border closures and weak                                           Oil Agriculture Industry Services Non-oil             GDP
+domestic demand. This could reflect the profitability of domestic                                                                              GDP
+production due to local currency depreciation which led to an                                                        Growth, y-o-y (LHS)     Contribution (RHS)
+increase in production in anticipation for a resumption in trade. On
+the demand side, lower exports and private consumption was partly         Source: CBI and World Bank staff calculations.
+offset by a sharp decline in imports.
+The global context                                                                      Demand-Side GDP Components
+FIGURE B1.2 • 
+Around the world, the COVID-19 pandemic and the mitigation                              (Q1-20/21)
+measures triggered the deepest global recession since the great
+10                                                        4
+depression. The pandemic shocked an already slowing global
+Contribution to growth, pp
+Growth y-o-y, percent                         1.2
+economy into a deep recession; the World Bank’s Global Economic                                          0                                                        0
+–0.6                        –2.8 –4
+Prospect’s baseline forecast of a 5.2 percent contraction in global                                    –10 –4.0
+GDP in 2020 is the deepest in eight decades and almost three times                                     –20                                                        –8
+as steep as the 2009 global recession. Despite unprecedented                                           –30                                                        –12
+–30.0
+support, advanced economies are forecast to shrink by 7 percent in                                     –40                                                        –16
+2020, while emerging market and developing economies (EMDE)                                            –50                                      –44.3             –20
+are projected to shrink by 2.5 percent, well below the trough in                                           Private      Gov Investment Exports Imports       GDP
+EMDE growth of 0.9 percent in 1982 and the lowest since 1960.                                               cons.      cons.
+Countries in the Middle East and North Africa (MENA) have                                                            Growth, y-o-y (LHS)    Contribution (RHS)
+been disproportionally affected by the crisis, with oil producers
+Source: World Development Indicators.
+contracting the most. The sharp fall in demand for oil is curtailing
+exports in the region’s oil exporters, with negative spillovers to
+non-oil sectors. Moreover, the region continues to suffer from                          Q2 2020 GDP Contraction in Iran
+FIGURE B1.3 • 
+challenges related to longstanding security strains and refugees, as                    was Significantly Smaller than
+well as large structural impediments to growth. The region’s GDP is                     Most other Countries
+projected to shrink by 4.2 percent in 2020, significantly constrained
+by renewed policy cuts in oil production. Among oil exporters, GDP                                                                      Q2 2020*
+is projected to contract by 5 percent in 2020. Economic activity in                                      5
+GDP growth, y-o-y, percent
+the region’s oil importers is projected to drop by 0.8 percent, due                                      0
+0.4
+–5
+–2.7
+–2.8
+to spillovers from weakness in advanced economies and major
+–5.3
+–6.1
+–6.8
+–10
+–7.5
+–8.0
+EMDEs, pandemic-related disruptions and falling tourism.
+–9.0
+–9.9
+–10.2
+–11.4
+–11.4
+–15
+–14.5
+–14.8
+The growth performance of selected countries relative to Iran
+–17.1
+–20
+–18.0
+–18.7
+in Q2 2020 shows that Iran’s economy experienced a relatively
+UK –21,5
+Tunisia –21.7
+–25
+India –23.9
+modest contraction in this period (Figure B1.3). A number of factors                                   –30
+could explain the lower GDP contraction in Iran compared to other
+Mexico
+Italy
+Malaysia
+Euro area
+Chile
+Ukraine
+Brazil
+Japan
+Turkey
+US
+Russia
+Sweden
+*China (Q1)
+Nigeria
+Indonesia
+Iran
+South Korea
+Vietnam
+countries in Apr–Jun. First, Iran’s mitigation measures were (initially)
+not as long-lasting and less stringent than most countries and hence
+led to a lower shock domestically. Second, while Q1-20/21 was the
+first full quarter under COVID-19, the direct impact materialized in
+Source: CBI (for Iran) and country statistics agencies.
+Iran in February 2020. Indirect impacts likely started even before
+that (e.g., through lower demand from China). GDP contraction was
+larger over the two quarters (Jan-Jun 2020 at 11.9 percent, y-o-y).
+Third, Iran’s GDP experienced COVID-19 at an already lower base. Following over two years of recession and multiple round of sanctions, GDP
+in 2019/20 was only 0.9 percent larger than in 2010/11. Finally, the limited integration of Iranian economy with the international markets at the
+same time could also translates to lower magnitude of global shocks.
+4   IRAN ECONOMIC MONITOR – WEATHERING THE TRIPLE-SHOCK
+in Q4-19/20), it marks the third consecutive quarter        to rationing of limited foreign exchange (FX) reserves
+of positive industrial production, a reflection of the      and US secondary sanctions on banking transaction
+sharp depreciation of the rial in the same period.          related to trade with Iran. Overall, trade restrictions
+In the non-tradable sectors such as construction            led to a real net exports decline of 26.9 percent in
+higher prices has weighed on output as domestic             2019/20 and the current account surplus declined
+consumer purchasing powers deteriorated. In Q1-             to 0.9 percent of GDP. Non-oil trade contraction
+20/21, construction permits in major cities has fallen      accelerated to 20 percent (y-o-y, nominal) in Apr-Nov
+by 5 percent (y-o-y) while construction material and        2020 due to COVID-19 and the authorities’ widening
+services prices rose by over 30 percent (y-o-y).            the list of goods subject to import prohibition. The
+Weaker global demand and sanctions led               rial’s depreciation was not enough to offset the full
+Iran’s oil production to remain weak in the first           impact of weak demand and export restrictions. Iran’s
+half of 2020/21. The decline in production started          CAB registered a US$622 million deficit in Q1-20/21
+in earnest in June 2018 shortly after US sanctions on       (0.1 percent share of GDP)—Figure 7.
+Iran’s oil exports were announced. Based on OPEC                     The large magnitude of oil exports
+secondary sources data in the first half of 2020/21         contraction drove CAB dynamics despite its
+(H1-20/21), Iran’s oil production flatlined at just under   declining share in overall exports (Figure 8).
+2 mbpd, the lowest amount in decades. Iran was              Based on the last publicly available data from Iranian
+exempt from the OPEC+ production cut agreement in           authorities (2017/18) implicit domestic oil consumption,
+April 2020 in response to the collapse in oil prices        calculated as the difference between production
+following COVID-19. Production had remained stable          and exports, averaged around 1.5 mbpd. Even in
+at around 3.8 mbpd for two years prior to the re-           the absence of substantial growth in consumption
+imposition of oil export sanctions.                         over the period since then, this indicates that Iran’s
+Since mid-2018/19, demand-side GDP                   oil export volumes fell below their 2019 levels (0.651
+components have contracted sharply highlighting             mbpd, as reported by OPEC), and reached record
+a broad-based recession. Even before COVID-19, all          lows. According to China’s customs data, Iran’s oil
+expenditure-side components of GDP were declining           exports to China, its largest oil export destination, was
+in 2019/20. Consumption contracted at the second            83.8 percent lower in the first 10 months of 2020 than
+fastest rate in recorded history while investment fell      the same period in 2019/20.6 Trade restrictions also
+to 60 percent of its peak in 2011/12 as economic            led to goods transit through Iran to fall by 15 percent
+uncertainties mounted. Quarterly data shows that as         (y-o-y) in the first 8 months of 2020/21 (8M-20/21; i.e.,
+trade restrictions have increased and domestic demand       Apr–Nov 2020).
+weakened, inventories growth and reduction in imports                US secondary sanctions and COVID-19 trade
+have been the only sectors with a positive contribution     measures led to a sharp reduction of Iran’s exports
+to GDP growth since October 2019 (Figure 6).                to major traditional export partners. Iran’s exports
+Private consumption, investment, exports and import         to its traditional partners including India and China has
+contraction in Q1-20/21 marks the eighth consecutive        drastically declined since 2019. China’s customs data
+quarter of contraction (y-o-y) across these components.     report that the total value of trade with Iran contracted
+by 36.5 percent (y-o-y) in Jan–Nov 2020. This followed
+a 7.3 percent decline in Iran’s imports from China
+External Sector                                             and a staggering 56 percent decline in Iran’s exports
+transforming Iran to a net importer from China in
+The rapid decline in net exports led to Iran’s
+contrast to its net trade surplus in previous years. Iran’s
+current account balance (CAB) register a deficit
+exports to India plummeted to US$118 million in the
+in Q1-20/21. Oil exports fell below 0.7 mbpd in
+2019 after US sanction waivers for major importers
+of Iran’s oil ended in April 2019. Import contraction       6
+Exports of HS 27 goods consisting mainly of crude oil,
+was also large at 38.1 percent (real) in 2019/20 due             reported in US$ million.
+Recent Economic and Policy Developments         5
+FIGURE 7 • The CAB Registered a Deficit, Despite                                  FIGURE 8 • … as Oil Export Revenues Tumbled
+Much Lower Imports…
+80
+60                                                                              60
+40
+40
+20
+20                                                                               0
+0                                                                        –20
+–40
+–20
+–60
+–40                                                                                –80
+Q1 Q3 Q1 Q3 Q1 Q3 Q1 Q3 Q1 Q3 Q1
+–60                                                                                                2015/16 2016/17 2017/18 2018/19 2019/20 2020/21
+Q1 Q3 Q1 Q3 Q1 Q3 Q1 Q3 Q1 Q3 Q1
+2015/16 2016/17 2017/18 2018/19 2019/20 2020/21
+Oil exports, % of goods exports
+CAB, US$ billion                Exports growth, % (y-o-y)                                     Oil exports growth, nominal (y-o-y)
+Imports growth, % (y-o-y)
+Source: CBI and World Bank staff calculations.
+Source: CBI and World Bank staff calculations.
+first half of 2020, an insignificant amount (less than 2                           the Ministry of Industries updated the list of import
+percent) compared to its peak in the first half of 2018                            prohibited goods on a regular basis. The majority of
+(IMF DOTS). As such, Iran’s non-oil exports share to                               Iran’s imports, even before the sanctions, consisted of
+Iraq, Afghanistan and United Arab Emirates increased                               capital goods or intermediate inputs especially used
+in 8M-20/21 compared to the previous year (Figure 9).                              in manufacturing and agriculture sectors. The import
+Iran’s main import partners remained                                       control policy, including allocation of preferential
+the same in 2020/21 but imports level were                                         exchange rates for essential goods, has proved
+substantially lower. Iran continued to import goods                                challenging7 and contributed to a prevalence of lower
+from the same countries as before in 8M-20/21
+(Figure 10). However, trade restriction and limited
+accessible exchange reserves led to Iran’s imports                                 7
+In response to part of these challenges with the aim of
+to fall to much lower levels in 2020/21. Import                                                    increasing transparency, the Central Bank of Iran started
+substitution measures including bans on goods that                                                 publishing information on individuals and companies
+are domestically produced continued in 2020/21 and                                                 who received FX at preferential rates on its website.
+FIGURE 9 • Non-Oil Exports Fell Sharply and                                       FIGURE 10 • …while Origin of Imports Remained
+Concentrated on Closer Neighbors…                                                   Unchanged
+45                                                                                   50
+40                                                                                   45
+35          26%, 11.0                                                                40
+29%, 12.8
+30                                                                                   35
+6%, 2.4
+US$, billion
+US$, billion
+12%, 5.0                                                                30                        5%, 2.1
+25                                                                                                8%, 3.7
+11%, 4.5                                                                25
+20                                                                                                11%, 5.0
+24%, 5.1                                20                                      29%, 6.6
+15                                                        7%, 1.5                                                                         5%, 1.1
+23%, 9.5                                                                15           20%, 8.9                                6%, 1.4
+13%, 2.7     7%, 1.6
+10                                                                                   10                                                   11%, 2.6
+25%, 5.3                                                                        23%, 5.4
+5           22%, 9.0                                                                 5          26%, 11.2
+25%, 5.3                                                                        26%, 6.0
+0                                                                                    0
+2019/20                        8M-20/21                                              2019/20                    8M-20/21
+Iraq         China                UAE                                                China       UAE             Turkey
+Turkey       Afghanistan          Other                                              India       Germany         Other
+Source: IRICA and World Bank staff calculations.                                   Source: IRICA and World Bank staff calculations.
+Note: First number represents country’s share (%) in total exports.                Note: First number represents country’s share (%) in total imports.
+6   IRAN ECONOMIC MONITOR – WEATHERING THE TRIPLE-SHOCK
+FIGURE 11 • The Rial has Depreciated Sharply…                                                           FIGURE 12 • … Leading to a Renewed Surge in
+Inflation
+350                                               60
+Thousand IRR per 1 USD
+Thousand IRR per 1 USD
+300                                               50                                               30                                                        100
+250                                               40                                               20
+50
+Percent (m-o-m)
+200
+Percent (y-o-y)
+30                                               10
+150
+20                                                0                                                        0
+100
+50                                               10                                              –10
+–50
+0                                               0                                               –20
+Sep–18
+Nov–18
+Ene–19
+Mar–19
+May–19
+Jul–19
+Sep–19
+nov–19
+Ene–20
+Mar–20
+May–20
+Jul–20
+Sep–20
+Nov–20
+–30                                                        –100
+Ene–18
+Mar–18
+May–18
+Jul–18
+Sep–18
+Nov–18
+Ene–19
+Mar–19
+May–19
+Jul–19
+Sep–19
+Nov–19
+Ene–20
+Mar–20
+May–20
+Jul–20
+Sep–20
+Nov–20
+Parallel-NIMA gap (RHS)   Official (LHS)
+Parallel market (LHS)     NIMA (LHS)                                                             Inflation, m-o-m (LHS)   IRR depreciation , m-o-m (LHS)
+Inflation, y-o-y (RHS)   Core inflation, y-o-y (RHS)
+Source: CBI, media and World Bank staff calculations.
+Source: CBI, SCI and World Bank staff calculations.
+quality goods and inputs in some sectors (e.g., in
+inflationary expectations and higher cost push factors.
+parts and machinery or medicine).
+The latter was primarily driven by higher trade transaction
+Declining international reserves and
+costs and a sharp depreciation of the rial. In Apr–Nov
+restrictions on access to existing funds abroad
+2020, the rial lost 43 percent (y-o-y) of its value against
+impacted the policy response to external account
+the dollar as restricted access to exports proceeds
+pressures. The deterioration of Iran’s CAB and
+added to the impact of COVID-19 and geopolitical
+increased economic certainty have added to existing
+uncertainties. In tandem with the ER trend, the inflation
+challenges of accessing reserves held in trading
+peaked at 7 percent (MoM) in October 2020 (a 2-year
+partner countries banks. Iranian exporters also faced
+high) as core inflation steadily accelerated. As such, the
+challenges and disincentives in repatriating their
+CBI missed its inflation target of 22 percent for the year
+exports proceeds despite announced deadlines by
+after it announced its new inflation targeting policy and
+the Central Bank of Iran (CBI). According to the CBI
+open market operations in May 2020.
+Governor, more than US$19 billion of export proceeds
+Headline inflation was led by higher food and
+from 2017/18 and 2019/20 had not still been returned
+housing costs which disproportionately impact
+or used for imports as of mid-October 2020. These
+lower income deciles. Inflation in the first 8M-20/21
+developments led to a sharp depreciation of the rial in
+reached 30.6 percent (y-o-y) as price pressures initially
+the parallel market (Figure 11). In response, since mid-
+eased, due to weak COVID-19 induced demand, before
+October 2020 the CBI intervened directly to counter
+picking up again in May 2020 and steadily rising to a
+the pressure on the rial with larger direct FX injections
+high of 46.4 percent in November 2020 (Figure 12).
+in the secondary ER market. These measures along
+Similar to 2019/20, CPI was led by price increases in
+with expectation adjustments following the US
+essential goods and services (Figure 13). Food and
+elections contributed to the parallel ER experience a
+housing alone account for more than 75 percent of the
+downward correction in November 2020.
+consumption basket of the bottom 40 percent of the
+population, versus 51 percent for the highest decile.
+Monetary Policy and Prices                                                                               as defined by the CBI. Price increases in 8M-20/21
+were especially high for transportation services (69.5
+The sharp depreciation of the rial contributed to                                                        percent, y-o-y) as the impact of the gasoline price hike
+inflationary pressures in 2019/20, a trend which                                                         of November 2019 materialized.
+accelerated in 8M-20/21 (Figure 12). Consumer                                                                     Monetary policy remained loose due to
+price inflation (CPI) increased by 10 percentage point                                                   multiple economic shocks and constraints facing
+(pp) to 41.2 percent in 2019/20 due to a combination                                                     the banking sector. Broad money (M2) growth
+Recent Economic and Policy Developments                                 7
+FIGURE 13 • Lockdowns and Restrictions have                                                                                                FIGURE 14 • Monetary Policy Has Boosted Credit
+Increased Prices of Health and                                                                                                             to Private Sector and Money Supply
+Education Services
+40                                                                           5
+80                                                    80
+Contribution to total CPI, pp
+70                           69.5                     70
+Inflation y-o-y, percent
+35                                                                           4
+M2 growth m-o-m, percent
+M2 growth y-o-y, percent
+60                                                    60
+50                                                    50
+40                                    36.4                                                                                                  30                                                                           3
+30.6    26.6                               33.3 40
+30             28.7 24.2                              30
+20                      23.4     21.3                 20                                                                                    25                                                                           2
+10                                                    10
+5.7     5.5
+0                                                    0
+20                                                                           1
+CPI
+Food and
+Beverages
+Housing
+and utilities
+Transport
+Furnishings,
+Household
+Equipment/
+Clothing
+and Footwear
+15                                                                           0
+Jan–16
+Sep–16
+May–17
+Jan–18
+Sep–18
+May–19
+Jan–20
+Sep–20
+Inflation, y-o-y (LHS)
+Contribution to headline CPI, pp (RHS)
+Source: CBI and World Bank staff calculations.
+Source: SCI and World Bank staff calculations.
+contributed to trading volatility. These measures along
+accelerated in 6M-20/21 to 17.1 percent as the banking                                                                                      with lower banking deposit rates and curbs on FX sales
+sector claims on the government and non-public sectors                                                                                      led to a large influx of liquidity to the market. The market
+grew by 31 percent and 18.1 percent, respectively. This                                                                                     bullish trend reversed in Jul–Oct 2020 after an increase
+in part reflects the increase in bank deposit rates which                                                                                   in banking deposit rates and delays in the rolling out
+has reduced the negative real interest rates as well as                                                                                     of a second ETF (consisting of petrochemical sector
+COVID-19 response measures including temporary                                                                                              SOE shares) led to a large correction in the TEDPIX. In
+reductions in reserve requirements for providing                                                                                            November 2020, IRR10 trillion (US$238 million at the
+emergency COVID-19 loans. However, high liquidity                                                                                           official ER) from the National Development Fund (NDFI)
+growth has been an ongoing challenge that the banking                                                                                       of Iran was officially allocated to a TSE stabilization fund.
+sector has faced in recent years (Figure 14). The sector
+faces deeper structural issues such as banking sector
+undercapitalization and other imbalances of banks’                                                                                          Public Sector Finance
+balance sheets. The non-performing loans (NPL) ratio
+climbed back over 10 percent in Q1-20/21 as COVID-19                                                                                        The decline in oil export revenues and subdued
+contributed to a 26 percent increase in NPLs compared                                                                                       economic activity placed unprecedented
+to the previous quarter (Jan–Mar 2020).                                                                                                     pressures on government finances.9 The fiscal
+Government budget financing operations                                                                                              deficit-to-GDP ratio more than doubled to 3.7 percent
+increased in the Tehran Stock Exchange (TSE)
+while the main index underwent a large expansion                                                                                            8
+A quasi social assistance program initiated in 2006 based
+followed by a sharp correction in 2020/21. The TSE
+on which the government transferred shares of a basket
+main index (TEDPIX) experienced two distinct periods                                                                                                                   of SOEs’ equity to the bottom deciles. The shares were
+in 2020/21 (Figure 15). The first stage was a rapid                                                                                                                    managed by the government on the shareholders’ behalf
+increase (345 percent growth in the index in Apr–Jul                                                                                                                   and dividends were paid out on only a few occasions. As of
+2020) following the depreciation of the currency and a                                                                                                                 mid-2020, around 50 million Iranians were reported to own
+number of TSE initiatives by the Government. The latter                                                                                                                Justice Shares and with recent policy, were able to trade
+part of their shares directly on TSE if they opted to do so.
+included a number of initial public offerings (IPOs) of                                                                                     9
+The GoI has stopped publishing government finances
+state-owned enterprises (SOEs) shares and exchange                                                                                                                     data through public databases since 2018/19, though
+traded funds (ETFs). In addition, the GoI proceeded with                                                                                                               some information on fiscal aggregates is occasionally
+removal of trade restrictions of “Justice Shares”8 which                                                                                                               shared via the media.
+8   IRAN ECONOMIC MONITOR – WEATHERING THE TRIPLE-SHOCK
+FIGURE 15 • Large Liquidity Inflows Led TSE to Undergo a Rapid Boom and Bust in 2020
+2,000                                                                                                                                                                                                                       45
+40
+1,500                                                                                                                                                                                                                       35
+30
+25
+1,000
+20
+15
+500                                                                                                                                                                                                               10
+5
+0                                                                                                                                                                                                            0
+01/2018
+02/2018
+03/2018
+04/2018
+05/2018
+06/2018
+07/2018
+08/2018
+09/2018
+10/2018
+11/2018
+12/2018
+01/2019
+02/2019
+03/2019
+04/2019
+05/2019
+06/2019
+07/2019
+08/2019
+09/2019
+10/2019
+11/2019
+12/2019
+01/2020
+02/2020
+03/2020
+04/2020
+05/2020
+06/2020
+07/2020
+08/2020
+09/2020
+10/2020
+Turnover velocity (RHS)         PE ratio (RHS)                              Market capitalization (US$, billion) (LHS)                    TEDPIX (LHS)
+Source: TSE, CEIC and World Bank staff calculations.
+in 2019/20, as revenues falling to 11 percent of GDP                                                                           better collection and the impact of high inflation and
+in 2019/20 (4.2 pp decline). Oil revenues fell by more                                                                         sharp rial depreciation (e.g., in the form of higher rial
+than 50 percent to reach 2.2 percent of GDP while                                                                              denominated customs tax revenues).
+tax revenues shrank in real terms. Oil revenues share                                                                                   Adjustments to recurrent spending and
+in the budget fell to the lowest amount in recorded                                                                            COVID-19 related expenditures have led to a
+history in 2019/20 (19 percent, previous low was                                                                               sharp increase in the fiscal deficit. Slower current
+25 percent during the Iran-Iraq). Revenue pressures                                                                            expenditures growth (10 percent) relative to a high GDP
+further mounted in 2020/21. According to the Plan                                                                              deflator growth (37 percent) lead total expenditures to
+and Budget Organization (PBO), only 6 percent                                                                                  fall to 15 percent of GDP in 2019/20, despite stronger
+of planned oil revenues were realized in Apr–Jul                                                                               capital expenditures growth (23 percent). Expenditures
+2020, however, in the same period more than 75                                                                                 grew faster in 2020/21 due to wage bill and pension
+percent of budgeted tax revenues for 2020/21 were                                                                              payment adjustments as well as new transfers to
+realized. Tax revenue growth, despite the economic                                                                             counter the negative impact of high inflation and
+contraction and narrowing of the tax base, reflects                                                                            recession. Public sector wages and pensions for
+Oil Revenues Have Fallen to Historic
+FIGURE 16 •                                                                                                                               …leading to a Widening Fiscal
+FIGURE 17 • 
+Lows while Taxes Grew Modestly…                                                                                                Deficit
+60                                                                     50                                                      20                                                                    4
+Share of total revenues,
+40                                                                                                                             15                                                                    3
+40                                                      10                                                                    2
+Growth, percent
+Percent of GDP
+Percent of GDP
+20                                                                                                                              5                                                                    1
+30
+percent
+0                                                                                                                              0                                                                    0
+20                                                      –5                                                                    –1
+–20
+10                                                     –10                                                                    –2
+–40                                                                                                                            –15                                                                    –3
+–60                                                                     0                                                      –20                                                                    –4
+2014/15
+2015/16
+2016/17
+2017/18
+2018/19
+2019/20
+(est.)
+2014/15
+2015/16
+2016/17
+2017/18
+2018/19
+2019/20
+(est.)
+Oil share (RHS)                                                                                               Oil revenues                 Tax revenues
+Oil revenue growth (LHS)                                                                                      Other revenues               Current expenditures
+Tax revenue growth (LHS)                                                                                      Capital expenditures         Tax revenue growth (LHS)
+Source: CBI, PBO and World Bank staff calculations.                                                                            Source: CBI, PBO and World Bank staff calculations.
+Recent Economic and Policy Developments                                      9
+2020/21 were increased by 15 percent and 20 percent,                                       from strategic reserves to meet rising financing
+respectively. In response to the pandemic, GoI rolled                                      needs. Disposal of financial assets (mainly bond
+out a number of new cash transfers and low interest                                        issuance) increased by 90 percent in 2019/20
+loan packages to protect households and businesses                                         following amendments to the budget law. In 2020/21,
+(Box 2). As a result of a combination of higher costs                                      GoI started selling SOE shares via the stock market
+and lower revenues, the fiscal deficit is estimated to                                     and issued bonds through CBI auctions. Financing
+widen to over 6 percent of GDP in 2020/21.                                                 through the TSE—a combination of bond issuance
+The Government resorted to wide scale                                                and sales of SOE shares—in 6M-20/21 was 23 percent
+bond issuance, sales of assets and withdrawals                                             larger than that of the entire 2019/20. Other financing
+BOX 2. GoI COVID-19 SOCIAL PROTECTION MEASURES
+After the COVID-19 outbreak, the GoI introduced multiple financial support measures to mitigate the negative impact of the crisis on
+households and businesses. In addition the health sector and the unemployment insurance fund also received emergency funds from the
+initial (IRR1000 trillion or US$24 billion) support package.
+Households
+The first stage of household measures consisted of two major components:
+1.	 Four rounds of cash transfers of between IRR2 million to IRR6 million per household (depending on household size) in each round which
+covered 3 million vulnerable Iranians. Eligible households were those which neither the head of the family or other members had an
+income source over the year prior to COVID-19.
+2.	 A single round of consumption loans to around 21 million households. The low-interest loan amount was IRR10 million per household
+and repayments would be taken from future non-COVID-19 cash transfers. Initial studies suggest that the loans had a sizable impact
+on non-durable goods consumption.a
+A third indirect mitigation measure after the first COVID-19 peak came with the authorities relaxing previous restriction on trading of Justice
+Shares in TSE (see footnote 5) which potentially acted as a new savings source for those in need.
+These measures were better targeted than past transfer programs thanks to a recently operationalized welfare database by the Ministry of
+Cooperatives, Labor and Social Welfare (MoCLSW). The Welfare Information Platform of Iranians is an intragovernmental data platform
+managed by MoCLSW that provides economic and welfare indicators for all Iranians. Data is consolidated from 46 different sub-platforms
+shared by various ministries and public sector entities including Ministry of Finance, Ministry of Education, Ministry of Health, CBI, Social
+Security Organization, other pension funds, Chamber of Commerce, Civil Registry, Deeds and Properties Registry and Law Enforcement Force.
+In November 2020, two new plans were unveiled by the GoI and the Parliament after a new surge in COVID-19 cases was followed by a
+new round of stricter mitigation measures.
+•	 The GoI plan offers four new monthly cash transfers of IRR1 million per individual for the lowest income deciles (covering 30 million
+people). In addition, eligible households without a stable source of income (covering around 10 million Iranians) qualify for another
+round of IRR10 million (per household) consumption loans.
+•	 The Parliament proposed plan is in the form of 6 monthly transfers of IRR1.2 million per individual to the bottom three deciles (20 million
+people) and IRR0.6 million per individual for 60 million other Iranians according to the income deciles. The total cost of the plan is
+IRR300 trillion (US$7.1 billion).
+Businesses
+The GoI earmarked funds of the total initial rescue package to support businesses and protect jobs. Based on the measure impacted
+businesses were at low interest rate loans. The size of loan to businesses was determined by the sector of activity and number of employees
+and was conditional on employees retention. Details on the uptake and the impact of these loans have remained limited.
+The GoI COVID-19 response packages complement existing social protection programs including the Targeted Subsidy Reform Plan cash
+transfers (since 2010), Livelihood Support cash transfers (since the November 2019 gasoline price increase), occasional transfers (e.g., for
+Ramadhan) as well as other public social assistance plans of Behzisti Organization and Komite Emdad which focus on the most vulnerable
+households and people with disabilities.
+a
+https://voxeu.org/article/emergency-loans-and-consumption-evidence-covid-19-iran.
+10   IRAN ECONOMIC MONITOR – WEATHERING THE TRIPLE-SHOCK
+TABLE 1 • GoI Proposed an Expansionary Budget for 2020/21
+2020/21         2021/22                        2021/22
+Budget Law       Budget Bill                    Budget Bill         Growth (%) (relative to
+(IRR billion)   (IRR billion)                  (US$ billion*)       2020/21 Budget Law)
+Total Revenues                                               3,962,886        5,428,678                        47.2                     37.0
+Current Revenues                                             2,887,991        3,175,958                        27.6                     10.0
+Tax Revenues                                               2,038,535       2,479,450                          21.6                      21.6
+Direct Taxes                                                  871,006      1,309,445                          11.4                     50.3
+Indirect Taxes                                              1,167,530       1,170,005                         10.2                       0.2
+Other Revenues                                               849,456           696,508                         6.1                    –18.0
+Disposal of Non-Financial Assets                             1,074,895        2,252,720                        19.6                    109.6
+Oil                                                          569,436       1,992,720                          17.3                    249.9
+Others                                                       505,459           260,000                         2.3                    –48.6
+Total Expenditures                                           5,240,136         7,410,428                      64.4                      41.4
+Current Expenditures                                         4,360,316         6,370,117                      55.4                      46.1
+Development Expenditures                                       879,821         1,040,311                        9.0                     18.2
+Budget Balance                                              –1,277,250      –1,981,750                        –17.2                     55.2
+Disposal of Financial Assets                                 1,747,250        2,984,750                       26.0                      70.8
+Acquisition of Financial Assets                                470,000        1,003,000                         8.7                    113.4
+Net Disposal of Financial Assets                             1,277,250        1,981,750                        17.2                     55.2
+Government General Resources                                 5,710,136        8,413,428                       73.2                      47.3
+Source: PBO and World Bank staff calculations.
+Notes: * Based on the budget proposal’s implicit ER of 115,000 IRR/USD.
+sources included sales of new discounted justice                             FIGURE 18 • Labor Market Gender Gaps Remain
+shares and withdrawals from the NDFI for COVID-19                                        High (Q2-20/21)
+social assistance packages. The GoI explored new                                       80
+financing plans including securitization of future oil                                 70
+revenues; the latter was not approved by the Supreme                                   60
+50
+Percent
+Economic Council10 for implementation in 2020/21.                                      40
+The GoI submitted the 2021/22 Budget                                            30
+20
+Bill to the Parliament for approval and proposes                                       10
+important reforms including to the budget                                               0
+Total
+Men
+Women
+Total
+Men
+Women
+Total
+Men
+Women
+Total
+Men
+Women
+structure. The 2021/22 bill proposes an expansionary
+budget which will be 47.3 percent larger relative to the                                      Labor force Unemployment    Youth       Graduates
+participation rate rate    unemployment unemployment
+2020 Budget Law (Table 1). The bill is based on a
+Source: SCI.
+10
+The Council consists of senior officials including heads of
+three main branches of power (Executive, the Parliament
+and the Judiciary) and was established in 2018/19 in
+response to the economic impact of US sanctions’ return.
+D
+eve
+op
+lmic
+P
+y
+o
+e
+E
+n
+co
+R
+a
+lts
+ece
+d
+no
+tic
+m                                                                                                                                                        11
+lower oil price of US$40/bbl and oil sales of 2.3 mbpd     and total underemployment increased to 9.3 percent
+(around 0.3 mbpd above the mid-2020/21 production          from 8.8 percent in Q2-19/21.
+level). The implicit ER assumed in the Bill is 110,000            The decline in the unemployment rate
+IRR/USD, substantially higher than the current official    masks the impact of COVID-19 and the past two
+ER of 42,000 IRR/USD. The GoI proposes the removal         years of economic contraction. Since the return of
+of the top three income deciles from receiving cash        US sanctions and the start of economic contraction in
+transfers while public sector wages and pensions are       Iran, many jobseekers have either not entered the job
+to increase by 25 percent. The government proposes         market or have exited as they lose hope for finding jobs.
+a smaller allocation of US$8 billion (down from US$9       The large cohort of Iranians born in 1980s, following
+billion in 2020/21) at the subsidized rate of 42,000       a spike in fertility in the period, had postponed entry
+IRR/USD for the importation of essential goods and         through continued education and training. Despite
+medicine. However, as part of the draft budget the         this demographic wave, the active population only
+government requested discretion for scrapping the          grew by 25 thousand in 2019/20 and in Q2-20/21
+allocated ER subsidy in 2021/22 if needed and allocate     was 5 percent lower than the same period in 2018/19.
+the resources to further social protection measures        While part of this could be explained by structural
+and capital expenditures. According to the PBO             issues such as skills mismatch, it mainly reflects the
+authorities, the bill incorporates some of the elements    slow pace of job creation over the last two decades
+of a more comprehensive budget reform plan and its         which has led to potential jobseekers’ not entering the
+execution including performance-based allocation of        market. The opportunity cost of this weak activation
+budgets to increase expenditure efficiency.                and employment trend is especially significant for Iran
+considering the relatively high Human Capital Index in
+Labor Market and Jobs                                      Iran (see Box 3)
+The economic recession and COVID-19 has
+The worsening economic situation led to a                  had a disproportionate gender impact in the labor
+deterioration of employment and labor force                market. The Iranian labor market indicators show
+participation. Employment increased by 1.8 percent         the persistence of a large difference between males
+to reach 24.3 million in 2019/20 but fell by 1.5 million   and females over the years (Figure 18). However, the
+(y-o-y) in Q1-20/21 as COVID-19 led to a decline           gender gap has been exacerbated by the economic
+across all major sectors. This trend continued in Q2-      recessions. Female labor force participation in Q2-
+20/21 (Jul-Sep 2020) albeit at a slightly lower amount     20/21 is now 5 times smaller than males compared
+of 1.2 million lower employed (y-o-y). Labor force         to a ratio of 1 to 4 in Q2-18/19. In 2019/20, only 14
+participation declined by 0.4 pp in 2019/20 to 44.1        percent of working age women were working which
+percent and in Q2 2020/21 the labor force shrank by        was down 0.6 pp compared to the previous year. The
+1.6 million (y-o-y). As a result, the unemployment rate    female employment to population ratio in Q2-20/21
+in 2019/20 and Q2-20/21 fell to 10.7 percent and 9.5       also fell to 11.8 percent, registering a sharper y-o-y
+percent, respectively. Youth unemployment (15–24           contraction compared with males (–2.6 versus –2.2
+years old) remained high in Q2-20/21 at 23.1 percent       percent, respectively).
+12   IRAN ECONOMIC MONITOR – WEATHERING THE TRIPLE-SHOCK
+BOX 3. THE HUMAN CAPITAL INDEX IN IRAN
+According to the latest edition of the Human Capital Index (HCI)                   Human Capital Index
+report published by the World Bank in September 2020, a child
+born in Iran today will reach, on average, only 59 percent of his or               .2                    .4              .6                  .8              1
+her potential productivity when he or she grows up.
+Probability of Survival to Age 5
+First launched in 2018, the HCI estimates the expected
+productivity of a child born today as a future worker relative to a                .85                         .9                     .95                    1
+benchmark of complete education and full health. Using the latest
+data on education and health outcomes through March 2020, the                      Expected Years of School
+2020 index provides a snapshot of the state of human capital in
+174 countries before the COVID-19 pandemic and a baseline to                          4             6               8            10                12       14
+track the pandemic’s impacts on human capital over time. Figure
+Harmonized Test Scores
+B3.1 HCI and Components
+The HCI is composed of five components (see Figure B3.1):a                        300                         400                500                       625
+Probability of Survival to Age 5. 99 out of 100 children born in Iran              Learning-adjusted Years of School
+survive to age 5.
+Expected Years of School. In Iran, a child who starts school at age 4                 2         4               6         8           10            12      14
+can expect to complete 11.8 years of school by her 18th birthday.
+Harmonized Test Scores. Students in Iran score 432 on a scale                      Adult Survival Rate
+where 625 represents advanced attainment (300 represents
+minimum attainment).                                                               .5               .6              .7           .8                .9        1
+Adult Survival Rate. Across Iran, 93 percent of 15-year olds will
+Fraction of Children Under 5 Not Stunted
+survive until age 60. This statistic is a proxy for the range of health
+risks that a child born today would experience as an adult under
+.4                          .6                     .8                     1
+current conditions.
+Healthy Growth (Not Stunted Rate). Data on stunting are not available         Note:
+for Iran.                                                                     • Large circle represents Iran, Islamic Rep. in 2020
+• Diamond represents Iran, Islamic Rep. in 2010
+Iran’s HCI value of 59 percent is above the averages for the                  • Small circles represent other countries
+MENA region (57 percent) and upper-middle income countries                    •Lines and color of circles indicate quartiles of the distribution
+(56 percent). Between 2010 and 2020, the HCI value for Iran
+increased from 0.56 to 0.59.
+In Iran, the HCI for girls is higher than for boys. Girls measure               Component                                       Boys               Girls   Overall
+higher on all components except the expected years of schooling                 HCI                                             0.58               0.61     0.59
+which closely follows boys.
+Survival to Age 5                               0.98               0.99     0.99
+Iran’s education outcomes indicators underperform relative to
+its HCI health indicators. Based on current enrollment rates, an         Expected Years of School             11.9        11.8       11.8
+Iranian child can expect to complete only 11.8 years of school           Harmonized Test Scores                420        446        432
+placing Iran in the bottom half of the list of countries in the world
+despite the progress made on this indicator since 2010. When             Learning-adjusted Years of School     8.0         8.4        8.2
+taking into account the quality of learning that actually takes
+Adult Survival Rate                  0.92        0.95       0.93
+place, this child will achieve only 8.2 learning-adjusted years
+of school. As a result, more than 30 percent of the time spent
+in school by an average Iranian child is “wasted” and fails to
+translate into productive skills when this child enters the workforce. Furthermore, harmonized test scores of Iranian students (especially for
+boys) has regressed since 2010 highlighting the need for measures and investments to improve education quality.
+Sources:
+World Bank. Human Capital Project. https://www.worldbank.org/en/publication/human-capital.
+World Bank. 2020. The Human Capital Index 2020 Update: Human Capital in the Time of COVID-19. World Bank, Washington, DC. https://openknowledge.worldbank.org/
+handle/10986/34432.
+a
+Learning-adjusted Years of School is a product of two HCI components: Expected Years of School and Harmonized Test Scores.
+RECENT ECONOMIC AND POLICY DEVELOPMENTS                         13
+2
+OUTLOOK
+AND RISKS
+Outlook                                                       of the external deficit is partly mitigated by the
+simultaneous sharp decline in imports as access
+Iran’s economic outlook remains highly                        to international reserves remain limited. As exports
+uncertain, especially given the COVID-19                      begin to recover the CAB is projected to remain at a
+evolution and the continuation of US sanctions.               small surplus in 2021–2022. In the absence of other
+Iran’s GDP in 2020/21 is estimated to contract by 3.7         sources of external financing (e.g., foreign direct
+percent due to a dual contraction of the non-oil and          investment and remittances) and a rebound in oil
+oil sectors. The growth forecast remains moderate             prices external pressures are expected to continue.
+compared to regional comparators due to a shorter                    Fiscal pressures are forecast to increase
+initial period of domestic containment measures and           due to higher financing costs and lower revenue
+neighbor countries move to more growth focused                growth. Government revenues are projected to
+mitigation strategies. Oil production is projected            reach a trough in 2020/21 as economic activity
+to remain close to the Q1-20/21 level (2 mbpd).               contracts before improving in the outer years with the
+Overall economic contraction is projected to intensify        moderate economic recovery and gradual pick up in
+in the second half of 2020/21 (Oct 2020–Mar                   oil revenues. COVID-19 healthcare cost and social
+2021) as stricter health measures are enforced due            assistance transfers are forecast to add to government
+to a resurgence of cases in the colder season. In the         expenditure growth which will be dominated by
+absence of a vaccine widely adopted in the country            subsidies and labor compensation in 2020/21 and
+until end-2021, recovery in 2021–2022 is projected to         beyond. Extensive bond issuance in 2020/21 is
+be weak and be driven primarily by the non-oil sector.        forecast to continue and the higher interest payments
+On the external side, Iran’s current account         is projected to lead to a growing overall fiscal deficit in
+balance is projected to remain at low levels                  the medium term while the primary fiscal deficit GDP
+as exports slowly recover. The 2020/21 CAB is                 ratio marginally declines.
+estimated to register a small deficit for the first time in          Inflation is forecast to remain elevated in
+15 years due to a decline in exports. The magnitude           the medium term while job creation remains weak
+15
+especially as labor force participation increases.          recovery in the longer term could be weaker if the
+Despite the government’s refraining from direct             pandemic leads to a permanent reduction of Iran’s
+monetization of the fiscal deficit inflation is estimated   productive capacity. Higher government reliance
+to increase to 39 percent in 2020/21. Notwithstanding       on debt issuance and stock market sales of assets
+the large output gap in the economy, inflationary           increases financial contagion risks and could place
+pressures are expected to remain high due to the            additional stress on the undercapitalized banking
+scope of economic uncertainties and high liquidity          sector. External balances could worsen if further trade
+growth as external account pressures continue. Iran’s       restrictions are imposed (e.g., on exports to Iraq) or
+current economic structure undermines the private           demand in China and other main export partners do
+sector’s role as the main engine of job creation and as     not recover in the medium term. With the economy
+such jobs prospects even under a modest rebound in          operating at a lower base and below potential output,
+2021–22 will remain insufficient to meet the growing        recovery in the outer years could be stronger. Limited
+labor supply in absolute terms.                             integration of Iran’s economy with the rest of the world
+The COVID-19 outbreak will impact                    reduces the magnitude of exposures to external shocks.
+households’ welfare through reduced labor                   Upside risks to Iran’s economic prospects include a
+market incomes and high inflation. The fall in labor        stronger recovery in the oil market which could help
+market incomes is estimated to increase poverty             Iran’s exports through both volume and price channels.
+in the short-term significantly, with households in         The lifting of a significant part of US sanctions would
+more affected parts of the country and working self-        have a large positive impact, as it did following the Joint
+employed in services sectors being more severely            Comprehensive Plan of Action in 2015.
+affected. Government cash transfers partly help                     The multitude of crises facing Iran’s
+compensate for the shock, but their mitigation impact       economy raises the urgency for further social
+is hindered by high inflation continuing to erode           protection mitigation strategies that are
+their value in real terms. Fiscal constraints may limit     complemented with deeper economic reforms.
+the scope for a wider response, but better targeting        The recent multiple years of recession has severely
+of cash transfers can help reduce the fiscal cost of        undermined the welfare of the Iranians and put
+mitigation measures. The Special Focus chapter of           unprecedented strain on the most vulnerable which
+this issue of the IEM examines the disaggregated            raises the urgency of reforms more than before.
+impact of COVID-19 and inflation.                           Mitigation measures have managed to offset part of
+the pressures in the past but have largely been ad-hoc
+and unsustainable due to lack of accurate targeting
+Risks and Opportunities                                     mechanisms. The newly piloted Welfare Information
+Platform of Iranians could be a crucial tool in the
+Risks to Iran’s economic outlook relate to the              implementation of future interventions and social
+evolution of COVID-19 pandemic and geopolitical             protection strategies. Sustainability of such measures
+developments. The economic outlook is subject               and overall economic recovery will ultimately depend
+to significant risks if large resurgences of COVID-19       on a package of deeper economic reforms such
+outbreak force stringent lockdown measures or a             aimed at further economic diversification and private
+reliable vaccine is not distributed in 2021. Economic       sector promotion.
+16   IRAN ECONOMIC MONITOR – WEATHERING THE TRIPLE-SHOCK
+TABLE 2 • Iran: Selected Economic and Financial Indicators, 2017/18––2022/23
+2017/18                 2018/19                 2019/20               2020/21                 2021/22            2022/23
+Act.                    Act.                    Act.                  Proj.                   Proj.              Proj.
+Real sector                                                                  (annual percentage change, unless otherwise specified)
+Real GDP at factor cost                        3.7                    –5.4                   –6.5                   –3.7                    1.5               1.7
+Total crude oil production                     3.8                     3.6                    2.4                    2.0                    2.1               2.2
+(million barrels/day)
+Crude oil, average price (US$)                52.8                    68.3                   61.4                   40.0                    42.0              48.0
+Money and prices                                                                (annual percentage change, unless otherwise specified)
+CPI Inflation (p.a)                            9.6                    31.2                   41.2                   39.1                    28.3              24.5
+Investment & saving                                                                   (percent of GDP, unless otherwise specified)
+Gross Capital Formation                       34.7                    34.7                   41.3                   40.7                    41.0              41.3
+Gross National Savings                        38.3                    40.6                   42.1                   40.1                    41.6              41.9
+Government finance                                                                    (percent of GDP, unless otherwise specified)
+Total revenues                                17.0                    15.4                   11.2                    9.3                    9.5               9.8
+Tax Revenues                                7.6                     6.7                    5.9                    5.6                    5.8               6.0
+Direct Taxes                             3.5                     3.4                    3.4                    3.1                    3.2               3.3
+Indirect Taxes                           4.1                     3.3                    2.5                    2.5                    2.6               2.7
+Total expenditures                            18.7                    17.0                   14.9                   15.9                    16.2              16.7
+Current                                    15.9                    14.5                   12.5                   12.9                    12.4              12.3
+Net lending/borrowing                   –1.8                    –1.6                   –3.7                   –6.6                    –6.7              –6.9
+(overall balance)
+Government Debt                         36.1                    41.8                   42.9                   45.1                    47.0              49.4
+(% of GDP)
+External sector                                                                       (percent of GDP, unless otherwise specified)
+Current Account                                3.5                     5.9                    0.9                   –0.6                    0.5               0.7
+Net Exports                                 3.3                     5.5                    0.7                   –0.7                    –0.1              0.0
+Export of Goods and                     24.2                    22.7                   16.0                   12.3                    12.8              13.4
+Services
+Import of Goods and                     21.0                    17.1                   15.3                   13.0                    12.9              13.4
+Services
+Memorandum Items:
+Nominal GDP (Billion IRR*)                15,316,534              19,128,863             24,412,595             31,773,326               42,055,915        53,516,185
+Source: Iranian authorities and World Bank staff estimates and projections
+Outlook and Risks   17
+SPECIAL FOCUS:
+WELFARE IMPACTS OF
+INFLATION AND THE
+COVID-19 OUTBREAK IN
+IRAN
+11
+T
+his chapter presents the most recent           per capita was –7.0 percent in 2018/19,12 –7.7 percent
+estimates of poverty and inequality in Iran.   in 2019/20 and is expected to be –5.4 percent in
+It also continues and updates the analysis     2020. Inflation, which had started to come down
+on the welfare and poverty impacts of the COVID-19      from the 2017 spike, resurged in 2019/20 as the
+pandemic in Iran undertaken in the previous issue       Rial sharply depreciated. The exchange rate passed
+of the Iran Economic Monitor. It extends the analysis   IRR 220,000 per USD in the parallel market and the
+by assessing the impact of high inflation in the        depreciation rate in Apr–Jun 2020 was equal to that
+country and the potential mitigation effect of social   of the entire previous year. The Consumer Price Index
+assistance response measures to the pandemic.           (CPI) increased by 10 percentage points to 41.2
+Poverty is measured using the international poverty     percent in 2019/20 and inflation has continued to
+line of USD 5.5 (2011 purchasing power parity (PPP),    accelerate in 2020 through the pandemic, reaching
+using the latest revision to PPP estimates). Our        the highest month-to-month increase in almost 2
+analysis shows that the COVID-19 pandemic and           years in October 2020.
+continued high inflation heightened already strained           These macroeconomic trends and the
+household incomes resulting in a substantial            economic shock from the pandemic raise
+increase in poverty. Social protection responses        concerns about the welfare of Iranians. The main
+can partly help to mitigate these impacts but can be    channels through which the COVID-19 outbreak has
+better targeted.                                        impacted household welfare are through reductions
+in income and through cost of living increases.
+Introduction
+Iran entered its third year of economic
+11
+This section is a product of the Poverty and Equity Global
+Practice of the World Bank. It has been written by Laura
+contraction following the reintroduction of US
+Rodriguez (lrodrigueztak@worldbank.org).
+sanctions in 2018 and the COVID-19 crisis in            12
+As in the rest of the report, numbers on Iran in this note
+2020. Meanwhile, the depreciation of the Rial                 are based on Persian calendar which bridges two years
+continued to fuel inflation. The growth rate in GDP           in Gregorian calendar starting and ending in March.
+19
+Incomes for self-employed workers in the services        points; a remarkable performance which was driven
+and high-intensity contact sectors that are difficult    by the universal cash transfer program introduced in
+to do from home have been the most hardly hit.13         2011. Declining values of the transfers in real terms
+Inflation, especially rising prices for food and         could not sustain this poverty reduction, leading to
+other basic commodities have further deteriorated        a gradual increase in poverty in the following years
+the living standards of households. Ongoing              until 2016/17. The national poverty rate fell slightly
+government cash transfers help compensate for            from 11.6 in 2016/17 to 10.8 in 2017/18 (Figure 19),
+the income shocks, but their mitigation impact           mostly due to increases in labor incomes (Kazemi
+is reduced by high inflation which erodes the real       et al., 2020). Poverty rose again to 12.3 in the most
+value of the transfers. This note examines in detail     recent estimate for 2018/19, a change that was
+these impacts.                                           again related to the erosion of cash transfers and
+labor incomes in real terms (ibid). Urban and rural
+poverty have followed similar trends, although rural
+Recent Poverty and Inequality Trends                     poverty is considerably higher, standing at 24.2
+in Iran                                                  percent in 2018/19 (compared to 8.3 in urban areas).
+Inequality measured by the Gini index has increased
+The poverty measurement in this note follows the
+continuously since 2016/17 (Figure 20). Inequality
+methodology of previous Iran Economic Monitor
+within urban areas also saw a continued increase in
+reports and well-established international
+the period, but that within rural areas did not rise in
+standards. In the absence of an official poverty
+2018/19.
+line, the poverty threshold is the international upper
+middle-class poverty line of USD 5.5 PPP per day.
+Measuring poverty requires firstly to define an
+indicator to measure welfare or living standards.
+The note uses both household consumption and
+13
+Skills surveys from 53 countries reveal that workers in
+hotels and restaurants, construction, agriculture, and
+household income (expressed per person), following
+commerce are less likely to be able to work from home
+standard procedures to construct the aggregates                (Hatayama et al., 2020). Phone surveys conducted
+and implementing price adjustments to ensure                   by the World Bank across developing countries have
+comparability within survey years and across them              revealed that women and lower educated workers have
+(Deaton and Zaidi, 2002; Haughton and Khandker,                been more likely to lose their jobs, especially in industry
+2009).14 For the poverty line—the minimum level below          and services sectors (Sanchez-Paramo and Narayan,
+2020). Similar findings have been echoed in the US, UK
+which a person is considered to be poor—we use the
+and Germany (Adams et al., 2020).
+international upper middle-class line15 of USD 5.50      14
+The consumption aggregate excludes expenditure on
+expressed in Purchasing Power Parity (PPP) terms               health and durables and is inter-temporally and spatially
+(Jolliffe and Prydz, 2016).16 Figures from 2016/17             deflated to account for changes in prices during the
+onwards are updated using the May 2020 revision to             survey period and spatial variation in prices. The CPI
+PPP rates17 and thus differ from previous estimates;18         rates used to convert figures to 2011 values come from
+the Statistical Center of Iran (SCI).
+trends and within-country patterns discussed in          15
+Because extreme poverty is almost nonexistent in Iran,
+previous works (Kazemi et al., 2020; Hayati et al.             we do not use the most common USD 1.9 poverty line.
+2018) remain valid.                                      16
+The levels of poverty are slightly different than those
+Poverty reduction in Iran stalled in recent           reported by the World Bank for global poverty monitoring
+years, and inequality is on the rise. Three special            (in World Development Indicators and PovcalNet). The
+focuses in the Iran Economic Monitor (Hayati et al.,           main difference comes from the way welfare aggregate
+is created.
+2018; Kazemi et al., 2020) reported recent poverty       17
+https://www.worldbank.org/en/programs/icp#6.
+and inequality trends and their determinants. During     18
+As in many other countries and the global estimates,
+a period of poverty reduction between 2009/10                  poverty increased with the revised 2011 PPP figures
+and 2012/13 poverty fell by almost four percentage             (Atamanov et al., 2020a).
+20   IRAN ECONOMIC MONITOR – WEATHERING THE TRIPLE-SHOCK
+FIGURE 19 • Headcount Poverty Rates                                                                                                                                       Gini Index (consumption per capita)
+FIGURE 20 • 
+(consumption per capita) at USD                                                                                                                               National and by Rural/Urban Areas,
+5.5 2011 PPP National and by Rural/                                                                                                                           2016/17–2018/19
+Urban Areas, 2016/17–2018/19
+")                 36                                                       34.8                                               35.6
+")                          25                                                                                                                                                                  34.1
+"!
+24.2                                            34                                                                                                    34.9
+"!                          20           22.7                                        22.2                                                                  ')                                                                          33.9
+Percent
+32                33.3
+')                          15                                                                                                12.3
+Percent
+11.6                                        10.8                                                                  '!
+'!                          10                                                                                                                                                30                                                       31.3                                         31.4
+)
+8.3                                                          29.8
+)                              5         7.5                                        7.0                                                                       !              28
+!                              0                                                                                                                                                       2016/17                                      2017/18                                  2018/19
+2016/17                                   2017/18                                   2018/19
+National                    Rural              Urban
+National                Rural                  Urban
+Source: Author’s calculations based on HIES 2016/17–2018/19.
+Source: Author’s calculations based on HIES 2016/17–2018/19.
+are imported, food prices are especially exposed.
+The Impact of COVID-19 and Inflation                                                                                                                           The COVID-19 pandemic—which reached Iran early
+on Household Welfare and Poverty                                                                                                                               in 2020—heightened these pressures. Problems with
+supply chains, restrictions to labor mobility and lower
+High inflation returned to Iran in 2020. Food                                                                                                                  global demand through the pandemic have been
+prices have spiked, with particularly worrisome                                                                                                                reflected in rises in agriculture prices and food price
+implications for the cost of living of the poor                                                                                                                inflation in many countries. The highest increases in
+and vulnerable. After price increases in 2018, the                                                                                                             CPI in Iran have been for food, beverages and tobacco
+continued depreciation of the Rial and the COVID-19                                                                                                            (Figure 21). Prices for many other items, such as
+pandemic heightened inflation again in 2020. The                                                                                                               furnishings and household equipment, recreation and
+sharp depreciation of the exchange rate increased                                                                                                              culture and transportation have also been high.
+import prices, which in turn pushed the domestic price
+of imported goods. Among the top 5 imported products
+in Iran are maize, rice and soybeans; vegetables are                                                                                                           19
+Data for 2017 from the World Integrated Trade Solution
+15 percent of total imports.19 As many key staples                                                                                                                       (WITS) https://wits.worldbank.org/.
+FIGURE 21 • National CPI by Type of Goods and Services (% change y-o-y)
+170
+year on year change (%)
+150
+130
+110
+90
+70
+50
+30
+10
+–10
+Apr–16
+Jun–16
+Aug–16
+Oct-–16
+Dec–16
+Feb–17
+Apr–17
+Jun–17
+Aug–17
+Oct–17
+Dec–17
+Feb–18
+Apr–18
+Jun–18
+Aug–18
+Oct–18
+Dec–18
+Feb–19
+Apr–19
+Jun–19
+Aug–19
+Oct–19
+Dec–19
+Feb–20
+Apr–20
+Jun–20
+Aug–20
+Food and beverages                                                               Tobacco                        Clothing and footwear                               Housing, water, electricity, gas and fuels
+Furnishings and household maintenance                                            Health                         Transport                                           Communication
+Recreation and culture                                                           Education                      Restaurants and hotels                              Miscelaneous
+Source: Author’s calculations based on SCI.
+Special Focus: Welfare impacts of inflation and the COVID-19 outbreak in Iran                                                                                                                  21
+FIGURE 22 • Expenditure Shares by Type of Goods and Services (%) (by rural/urban and welfare decile)
+1.0
+0.9
+0.8
+0.7
+0.6
+0.5
+0.4
+0.3
+0.2
+0.1
+0.0
+Rural        Urban         Bottom       Decile 2   Decile 3     Decile 4      Decile 5          Decile 6   Decile 7        Decile 8    Decile 9       Top
+decile                                                                                                                    decile
+Miscelaneous                                     Insurance                              Restaurants, hotels        Education
+Recreation, culture                              Communication                          Transport                  Health
+Furnishings, hold equipment, maintenance         Water, electricity, other fuels        Housing                    Clothing, footwear
+Tobacco                                          Food and Beverages
+Source: Author’s calculations based on HIES 2016/17.
+Rising living costs are strongly connected                                     index instead accounts for variations in consumption
+to declining socio-economic wellbeing, but not                                         baskets, incorporating, for instance, the higher share
+everyone is equally affected. The degree to                                            of expenditures on food by poorer households, or
+which purchasing power declines with inflation                                         higher rent expenses by urban ones. Unlike the CPI
+depends on the items consumed as well as                                               reported by the Statistical Center of Iran (SCI), which
+spatial variations in price increases. For instance,                                   exists for deciles and by provinces separately, group-
+tobacco expenditures are only 1 percent of the total                                   specific indices here are further disaggregated for
+household budget, so a large price increase would be                                   intersections of those groups (e.g. rural areas in a
+minimally felt by most. Rising food costs have deeper                                  specific province) allowing a more detailed analysis.
+implications, especially for the poor. Food shares are                                 Further, they are adapted to the welfare aggregate
+as high as 43 percent of the household budget20 in                                     used for the poverty measurement, excluding durable
+rural areas and for households in the lowest welfare                                   items and health expenditures.
+decile (Figure 22). Rent inflation affects more heavily                                       There is clear variation in inflation between
+the middle-class and even the more affluent urban                                      different groups, with poor rural households
+households as housing costs shares are large in                                        and households in rural Zagros22 being most
+urban areas (30 percent of total expenditure) and in                                   affected. On average nationally, by October
+the top decile (35 percent). Transport costs represent                                 2020, the consumption basket was 2.6 times more
+around 5–6 percent of expenditure without much                                         expensive compared to April 2016. Rural households
+variation across the distribution.                                                     across the distribution saw the highest rise in the
+Combining data on inflation with different                                     price of their consumption basket (Figure 23). The
+expenditure baskets for households in different
+regions and across the welfare distribution,
+we calculate group-specific price indices.                                             20
+Because households may change the composition of
+Methodologically, the estimation follows Cravino                                             their budgets as a response to high inflation, budget
+and Levchenko (2017), who estimate the impact of                                             shares are calculated for 2016/17 before the inflationary
+the 1994 Mexican hyperinflation for household living                                         pressures began in Iran.
+21
+Although we are only able to identify the changes in
+standards across the income distribution.21 Unlike a
+welfare attributed to the variation of prices for households
+generic price index, which weights price increases                                           that consume different types of goods (across variation)
+for different goods and services using a common                                              but not that owing to the within variation.
+basket for the whole country, a group-specific price                                   22
+Provinces are grouped in regions. See note in Figure 5.
+22   IRAN ECONOMIC MONITOR – WEATHERING THE TRIPLE-SHOCK
+Group-Specific Price Index (April 2016 = 1).
+FIGURE 23 • 
+Urban and rural households by welfare decile
+2.8
+2.8
+2.6
+= 1) = 1)
+Index (2016/04
+2.6
+2.4
+Price(2016/04
+2.4
+2.2
+Price Index
+2.2
+2.0
+2.0
+1.8
+OCT     NOV        DEC        J AN       F EB       MAR        APR        MAY         J UN      JUL        AUG        SEP         OCT
+1.8                                                                                 2020
+OCT      NOV         DEC      J AN         F EB     MAR          APR      MAY         J UN      JUL          AUG      SEP           OCT
+Urban – Decile 1     Urban – Decile 2     Urban – Decile 3              2 0 24
+Urban – Decile  0       Urban – Decile 5      Urban – Decile 6
+Urban – Decile 7     Urban – Decile 8     Urban – Decile 9     Urban – Decile 10       Rural – Decile 1      Rural – Decile 2
+Urban–
+Rural    Decile3
+–Decile  1    Rural –
+Urban    Decile4
+–Decile  2    Rural –
+Urban  –Decile
+Decile53    Rural –
+Urban  –Decile
+Decile64       Rural –
+Urban  –Decile
+Decile75     Rural –
+Urban  –Decile
+Decile86
+Rural –
+Urban    Decile9
+–Decile  7    Rural –
+Urban  –Decile
+Decile10
+8    Urban – Decile 9     Urban – Decile 10       Rural – Decile 1      Rural – Decile 2
+Rural – Decile 3     Rural – Decile 4     Rural – Decile 5     Rural – Decile 6        Rural – Decile 7      Rural – Decile 8
+Rural – Decile 9     Rural – Decile 10
+2.8                                            Urban and rural households by region
+2.8
+2.6
+= 1) = 1)
+Index (2016/04
+2.6
+2.4
+Price(2016/04
+2.4
+2.2
+Price Index
+2.2
+2.0
+2.0
+1.8
+OCT     NOV        DEC        J AN       F EB       MAR        APR        MAY        J UN       JUL        AUG        SEP         OCT
+1.8                                                                                  2020
+OCT     NOV         DEC      J AN        F EB      MAR         APR        MAY        J UN       JUL        AUG       SEP       OCT
+Urban – Tehran metro      Urban – Caspian            Urban – Northwest 2 0 2 0
+Urban – Northeast        Urban – Central
+Urban – Southeast         Urban – Persian Gulf       Urban – Zagros          Rural – Caspian          Rural – Northwest
+Urban–
+Rural  –Northeast
+Tehran metro     Rural –
+Urban  –Central
+Caspian           Rural
+Urban– –Southeast
+Northwest      Rural –
+Urban  –Persian Gulf
+Northeast       Rural –
+Urban  –Zagros
+Central
+Urban – Southeast         Urban – Persian Gulf       Urban – Zagros          Rural – Caspian          Rural – Northwest
+Rural – Northeast         Rural – Central            Rural – Southeast       Rural – Persian Gulf     Rural – Zagros
+Source: Author’s calculations based on HIES 2016/17 and CPI from SCI.
+Note: Provinces are grouped in the following regions: Tehran metro ( Urban parts of Tehran and Alborz); Caspian (Golestan, Gilan, Mazandaran); Northwest (East and West Azarbaijan,
+Zanjan, Ardebil); Norteast (Khorasan Razavi, Semnan, North and South Khorasan); Central (Rural parts of Tehran and Alborz, Qom, Qazvin, Markazi, Fars, Isfahan); Southeast (Kerman,
+Sistan, Yazd); Persian Gulf (Khuzestan, Bushehr, Hormozgan); Zagros (Kermanshah, Kurdestan, Hamadan, Bakhtiari, Lorestan, Ilam, Kohkiloyeh).
+rural poor experienced the highest increase—2.8                                                          group and lower than the national average. Some
+times by October 2020. The cost of living increase                                                       parts of the country were also more heavily affected.
+for urban households was overall smaller, but with                                                       Households in rural Zagros (Kermanshah, Kurdestan,
+variations across the welfare distribution; a 2.7 time                                                   Hamadan, Bakhtiari, Lorestan, Ilam and Kohkiloyeh)
+increase for urban households in the poorest welfare                                                     experienced the largest price increases (2.8 times
+decile and a 2.5 times increase for the richest urban                                                    increase), and households in the urban parts of the
+households, the lowest cost of living increase for any                                                   region also felt high inflation (2.7 times). Households
+Special Focus: Welfare impacts of inflation and the COVID-19 outbreak in Iran                               23
+Parameters by Type of Income and
+TABLE 3 •                                                                              (consumption per capita poverty) and 20.4 percent
+Economic Sector of Occupation                                                 (income per capita poverty).
+Income Source                            Scenario Parameters                      The income effects vary for wage and self-
+employment income and by sector of employment.
+% of initial income
+(months without income)            Table 3 displays the parameters, with 1 indicating no
+Self-employment general                                 0.80 (2.4 months)
+change in income after the shock. For instance, self-
+employment income is assumed to decline to 80% of
+Self-employment selected sectors*                        0.50 (6 months)
+the pre-shock annual level. We could think of this as
+Salary – public sector                                    1 (no change)                a fall in this type of income for two-and-a-half months
+Salary – private sector general                         0.90 (1.2 months)              of the year. Labor income changes are adjusted by
+Salary – private sector selected sectors*               0.70 (3.6 months)              province of residence to account for some regions
+Household transfers (remittances)                         0.95 (1 month)
+of the country being more heavily affected by the
+disease than others.23 There is an additional small
+Pensions                                                  1 (no change)
+shock to private household transfers (domestic and
+Social assistance (pre-COVID)                             1 (no change)                international remittances), which have fallen through
+Note: *Selected sectors are construction; retail; transport; hotels and restaurants;    the pandemic.24
+communications; real estate; administrative and support activities; entertainment and
+art; other services.                                                                            The resulting fall in total incomes is larger for
+the poorest half of households who mostly work
+in sectors highly affected by the pandemic. These
+income losses are estimated to increase poverty
+in Tehran metropolitan area saw the lowest price rise                                   by 10 percentage points. Under the simulation, the
+in their consumption basket (2.5 times increase).                                       labor income and remittances shocks result in an
+Among urban households, those in the Persian Gulf                                       average reduction of 14.5 percent in total household
+(2.6 times) and the Southeast (2.6 times) parts of                                      income. Households in the bottom half of the welfare
+the country saw relatively high inflation compared to                                   distribution face a loss ranging from 15 to 17 percent,
+those in other regions.                                                                 while the total income loss for those in the top 50
+We extend estimations of the welfare                                            percent ranges from 10 to 14 percent (Figure 24). The
+impacts of the pandemic economic shock                                                  larger falls for poorer households are associated with
+developed in Kazemi et al. (2020) to assess the                                         their greater reliance on self-employment and being
+added impact of the high inflation in the country.                                      in sectors such as construction, retail, transport and
+This follows a partial-equilibrium analysis to simulate                                 hotels and restaurants, which are the most affected
+the first-order effects of the shock on various sources                                 by the economic shock and the restrictions imposed
+of household income using micro-level data from                                         to curve the pandemic. As a result of these income
+the 2018/19 Household Income and Expenditure                                            losses, poverty rises by 10 percentage points from
+Survey (HIES). The income change is then applied                                        the baseline when measured with the consumption
+to the welfare aggregates (consumption per capita                                       aggregate and by a similar magnitude when measured
+and income per capita) to calculate the increase in                                     with the income aggregate (Figure 25).
+the poverty rate. In a second step of the simulation,
+using the group-specific price indices we add the
+impact of inflation, that is, an estimate of how much
+households could now afford given the new prices. As
+a baseline, the welfare aggregates from HIES 2018/19                                    23
+The province-specific parameters vary slightly from that
+are nowcasted to 2020 by applying nominal private                                             in Kazemi et al. (2020) to account for the evolution of the
+virus spread across provinces since then.
+consumption per capita growth, and the poverty line                                     24
+Ratha et al. (2020) estimate a 5 percent fall in international
+is updated using the changes the group-specific                                               remittance inflows to Iran in 2020 compared to 2019. We
+price indices to obtain its value in the same baseline                                        are unable to distinguish domestic from international
+year. The baseline poverty rates are 15.2 percent                                             remittances in HIES.
+24   IRAN ECONOMIC MONITOR – WEATHERING THE TRIPLE-SHOCK
+Income Reduction across Consumption
+FIGURE 24 •                                                                                   FIGURE 25 • Simulated Poverty Impacts. Headcount
+Per Capita Deciles (% change)                                                                   Poverty Rates at USD 5.5 2011 PPP
+0                                                                                           50
+40
+36                 36
+40                        31                     31
+5                                                                                                               25                                               27
+30
+Percent
+20                                                      20
+Percent fall
+20 15
+10
+10                         10
+12
+15                                           14     14                                       0
+15                               15                                                        Baseline        Labour          After      After social    After social
+16   16       16     17                                                                             income and      inflation    assistance      assistance
+20                                                                                                            transfers fall    effect     (COVID cash     (COVID cash
+Bottom 2    3       4         5   6      7     8      9    Top                                                                          transfer)     transfer and
+decile                                                    decile                                                                                          loan)
+Income fall       Remittances fall                                                     Expenditure p.c. poverty       Income p.c. poverty
+Source: Author’s calculations based on HIES 2018/19.                                           Source: Author’s calculations based on HIES 2018/19.
+The fall in incomes through the pandemic                                                crisis: a cash transfer to 3 million poor households25
+is exacerbated by high inflation, which reduces                                                without a formal income before the pandemic, and a
+how much households can afford. The increase                                                   low or no-interest loan to about 21 million households
+in the cost of the household consumption                                                       across the country.26 We simulate these responses to
+basket increases poverty by another 11                                                         assess their potential impact (Table 4). Despite being
+percentage points. Because inflation reduces how                                               a relatively small program, the first measure can
+much households can afford with a given income,                                                mitigate about 5 percentage points or about a quarter
+accounting for the rise in the cost of living further                                          of the increase in consumption poverty because of its
+increases poverty: by 11 percentage points in the                                              narrower targeting at the bottom of the distribution.27
+case of the consumption poverty measure and by 9                                               The consumption loan adds 10 percentage points of
+points using the income poverty measure.                                                       mitigation, bringing poverty closer to the pre-COVID
+Despite a tight fiscal space, the GoI has
+adopted a series of measures to mitigate those
+impacts. A cash transfer aimed at informal poor                                                25
+Distributed in 4 rounds between April and June 2020.
+workers has a small impact on aggregate poverty
+26
+The loan was available for households who were receiving
+the existing energy subsidy reform compensation
+figures; a broader targeted consumption loan
+transfer. Of the eligible households, about 21 million
+has potentially larger mitigating effects across                                                          households applied for it.
+the distribution. Two social assistance measures                                               27
+It can mitigate almost a fifth of the increase in income
+have been adopted in Iran so far to respond to the                                                        poverty.
+COVID-19 Social Assistance Response Scenarios
+TABLE 4 • 
+Scenario Parameters
+Social Assistance                          Recipient allocation in survey                                         Amount (IRR per household/ year)
+COVID cash transfer (4 rounds)              Approx. 3 million households without formal wage, pension             IRR 2 million plus IRR 1 million for each additional household
+or property income and in the bottom 7 deciles of the                 member up to IRR 6 million for households with 5 or more
+household consumption distribution.                                   members.
+Consumption loan                            Approx. 21 million households receiving existing social               IRR 10 million.
+assistance transfers excluding those in the top decile of the
+No interest repayments.
+household consumption distribution.
+Special Focus: Welfare impacts of inflation and the COVID-19 outbreak in Iran                                                25
+baseline. Since the loan is intended to be repaid            Hatayama, M., Viollaz, M., Winkler, H. (2020). Jobs’
+as lower future subsidy reform cash handouts, its                  Amenability to Working from Home: Evidence
+mitigation impact might be somewhat reversed if the                from Skills Surveys for 53 Countries. Policy
+crisis is prolonged.                                               Research Working Paper, No. 9241. Washington,
+As the COVID-19 pandemic continues                         DC: World Bank.
+to unfold in a harsh economic environment,                   Haughton, J. and Khandker, S. (2009). Handbook on
+protecting households from further deterioration                   Poverty and Inequality. Washington, DC: World
+of their economic wellbeing is paramount. In                       Bank.
+late November 2020 the parliament approved an                Hayati, F., Kazemi, M., Andersen, M. R., Atamanov,
+additional, broadly targeted social assistance transfer            A., Wai-Poi, M., Mostafavi Dehzooei, M., Salehi
+to further help mitigate the economic impact of the                Isfahani, D. (2018). Iran Economic Monitor:
+pandemic on households. At an estimated cost of IRR                Weathering Economic Challenges. Washington,
+300 trillion (USD 7.1 billion), it is intended to reach 60         D.C.: World Bank Group.
+million Iranians.28 Nonetheless, as with previous cash       Kazemi, M., Atamanov, A., Mostafavi, M., Rodriguez, L.,
+transfers in Iran, its impact will be limited if cost of           Wai-Poi, M. (2020). Iran Economic Monitor, Spring
+living increases continue to deteriorate its real value.           2020: Mitigation and Adaptation to Sanctions and
+the Pandemic. Washington, DC: World Bank Group.
+Ratha, D., De, S., Kim, E., Plaza, S., Seshan, G., Yameogo,
+References                                                         N. (2020). Phase II: COVID-19 Crisis Through a
+Migration Lens. Migration and Development Brief
+Adams-Prassl, A., Boneva, T., Golin, M. and Rauh, C.
+33. KNOMAD-World Bank, Washington, DC.
+(2020). Inequality in the Impact of the Coronavirus
+Jolliffe, D., Prydz, E. (2016). Estimating International
+Shock: Evidence from Real Time Surveys. CEPR
+Poverty Lines from Comparable National
+Discussion Paper, No. DP14665.
+Thresholds. Policy Research Working Paper, No.
+Atamanov, A., Lakner,C., Mahler, D., Tetteh Baah,
+7606. Washington, DC: World Bank.
+S., Yang, J. (2020a). The Effect of New PPP
+Sanchez-Paramo, C., Narayan, A., (2020). Impact of
+Estimates on Global Poverty: A First Look.
+COVID-19 on households: What do phone surveys
+Global Poverty Monitoring Technical Note, No.12.
+tell us?, Voices [blog], November 20, 2020, https://
+Washington, D.C.: World Bank Group.
+blogs.worldbank.org/voices/impact-covid-19-
+Atamanov, A., Mostafavi, M. and Wai-Poi, M. (2020b).
+h o u s e h o l d s - w h a t - d o - p h o n e - s u r vey s - te l l -
+Welfare and fiscal implications from increased
+u s ? c i d = E C R _ E _ N e w s l e t t e r We e k l y _ E N _
+gasoline prices in Iran. Policy Research Working
+EXT&deliveryName=DM85808.
+Paper, No. 9235. Washington, D.C.: World Bank.
+Cravino, J., Levchenko, A. (2017). The Distributional
+Consequences of Large Devaluations. American
+Economic Review, 107 (11): 3477-3509.
+Deaton, A. and Zaidi,S. (2002). Guidelines for               28
+Details are yet to be implemented but the expectation
+Constructing Consumption Aggregates for                       is of a smaller transfer per household (IRR 1.2 million
+Welfare Analysis. LSMS Working Paper, No. 135.                for households in the bottom three deciles and IRR 600
+Washington, DC: World Bank.                                   thousand for those in middle deciles).
+26   IRAN ECONOMIC MONITOR – WEATHERING THE TRIPLE-SHOCK
+1818 H Street, NW
+Washington, DC 20433
